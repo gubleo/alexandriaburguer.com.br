@@ -1,0 +1,1751 @@
+@media (min-width: 1024px) {
+  .barra-fixa {
+    display: none;
+  }
+}
+@media (max-width: 1023px) {
+  .barra-fixa {
+    display: block;
+  }
+}
+@media (min-width: 1921px) {
+  .banner .hamburgers img {
+    width: 55%;
+    z-index: 8;
+    top: 30%;
+    right: 16%;
+  }
+  .footer {
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+  }
+  .section-obrigado {
+    background-size: cover;
+  }
+  .section-obrigado .logo img {
+    width: 30%;
+  }
+  .section-obrigado h1 {
+    font-size: 3rem;
+  }
+  .section-obrigado h2 {
+    font-size: 1.5rem;
+  }
+  .section-obrigado .btn-whatsapp {
+    font-size: 1.5rem;
+    padding: 1.5rem 4rem;
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 1441px) and (max-width: 1919px) {
+  .banner {
+    padding: 5rem;
+  }
+  .banner .chamada h1 {
+    font-size: 4rem;
+  }
+  .banner .chamada h2 {
+    font-size: 3rem;
+  }
+  .banner .chamada h3 {
+    font-size: 3.5rem;
+  }
+  .banner .chamada h3 span.ano {
+    font-size: 1rem;
+  }
+  .banner .chamada h4 {
+    font-size: 1rem;
+  }
+  .banner .formulario {
+    top: 15%;
+    right: 6%;
+  }
+  .banner .formulario .titulo-form h1 {
+    font-size: 3rem;
+  }
+  .banner .formulario .titulo-form h2 {
+    font-size: 1rem;
+  }
+  .banner .formulario form .campos {
+    margin: 1rem 0 0;
+  }
+  .banner .formulario form .campos label {
+    font-size: 0.8rem;
+  }
+  .banner .formulario form .campos input,
+  .banner .formulario form .campos select {
+    height: 2.25rem;
+    margin-top: 0.25rem;
+  }
+  .banner .formulario form .bt-section {
+    margin: 1rem 0 0;
+  }
+  .banner .formulario form .bt-section button {
+    padding: 0.75rem 0;
+    font-size: 0.9rem;
+  }
+  .cta h1 {
+    font-size: 2rem;
+  }
+  .mercado {
+    padding: 5rem;
+  }
+  .mercado .titulo h1 {
+    font-size: 6rem;
+  }
+  .mercado .titulo h2 {
+    font-size: 2.5rem;
+  }
+  .mercado .titulo p {
+    font-size: 1.15rem;
+  }
+  .mercado .itens .item .pt01 {
+    padding: 1.5rem;
+  }
+  .mercado .itens .item .pt01 img {
+    width: 70%;
+  }
+  .mercado .itens .item .pt02 {
+    padding: 1.5rem;
+  }
+  .mercado .itens .item .pt02 h1 {
+    font-size: 3rem;
+  }
+  .mercado .itens .item .pt03 {
+    padding: 0.75rem 2rem;
+  }
+  .mercado .itens .item .pt03 p {
+    font-size: 1rem;
+  }
+  .modelos {
+    padding: 5rem;
+  }
+  .modelos .titulo h1 {
+    font-size: 6rem;
+  }
+  .modelos .titulo h2 {
+    font-size: 2.5rem;
+  }
+  .modelos .item .texto h1 {
+    font-size: 2rem;
+  }
+  .modelos .item .texto h2 {
+    font-size: 1.25rem;
+    margin: 0 0 1rem;
+  }
+  .modelos .item .texto p {
+    font-size: 0.8rem;
+  }
+  .modelos .item .imagem span {
+    font-size: 2.25rem;
+  }
+  .video .youtube {
+    min-height: 30rem;
+  }
+  .video .youtube .play-button img {
+    width: 6rem;
+    height: 6rem;
+  }
+  .vantagens {
+    min-height: auto;
+    padding: 8rem 8rem 2rem;
+  }
+  .vantagens .titulo h1 {
+    font-size: 6rem;
+  }
+  .vantagens .titulo h2 {
+    font-size: 2.5rem;
+  }
+  .vantagens .itens {
+    margin: 4rem 0 0 5rem;
+  }
+  .vantagens .itens .item {
+    margin: 0 0 2rem;
+  }
+  .vantagens .itens .item .imagem {
+    width: 4rem;
+    height: 4rem;
+    padding: 0.75rem;
+  }
+  .vantagens .itens .item .texto p {
+    font-size: 0.9rem;
+  }
+  .vantagens .hamburgers img {
+    width: 23%;
+  }
+  .depoimentos {
+    padding: 8rem;
+  }
+  .depoimentos .titulo h1 {
+    font-size: 6rem;
+  }
+  .depoimentos .titulo h2 {
+    font-size: 2.5rem;
+  }
+  .depoimentos .galeria-dep .item {
+    min-height: 25rem;
+    padding: 1.5rem;
+    margin: 5rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .texto h1 {
+    font-size: 1.5rem;
+  }
+  .depoimentos .galeria-dep .item .texto p {
+    font-size: 1rem;
+    margin: 2rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .imagem {
+    left: 24.5%;
+  }
+  .depoimentos .galeria-dep .item .imagem span {
+    font-size: 8rem;
+    margin: 0 5rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .imagem img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .ondeestamos {
+    padding: 8rem 8rem 10rem;
+  }
+  .ondeestamos h1 {
+    font-size: 6rem;
+    margin: 0 0 -12rem;
+  }
+  .quemsomos {
+    padding: 2rem 8rem;
+  }
+  .quemsomos img {
+    left: 0;
+    bottom: 0;
+    width: 32%;
+  }
+  .quemsomos .texto h1 {
+    font-size: 2rem;
+  }
+  .quemsomos .texto p {
+    font-size: 0.65rem;
+  }
+  .quemsomos .texto a {
+    font-size: 0.7rem;
+  }
+  .footer {
+    font-size: 1rem;
+  }
+  .footer a {
+    font-size: 1rem;
+  }
+  .section-obrigado {
+    background-size: cover;
+  }
+}
+@media (min-width: 1367px) and (max-width: 1440px) {
+  .banner {
+    padding: 5rem;
+    overflow: hidden;
+  }
+  .banner .chamada h1 {
+    font-size: 4rem;
+  }
+  .banner .chamada h2 {
+    font-size: 3rem;
+  }
+  .banner .chamada h3 {
+    font-size: 3.5rem;
+  }
+  .banner .chamada h3 span.ano {
+    font-size: 1rem;
+  }
+  .banner .chamada h4 {
+    font-size: 1rem;
+  }
+  .banner .formulario {
+    top: 15%;
+    right: 6%;
+  }
+  .banner .formulario .titulo-form h1 {
+    font-size: 3rem;
+  }
+  .banner .formulario .titulo-form h2 {
+    font-size: 1rem;
+  }
+  .banner .formulario form .campos {
+    margin: 1rem 0 0;
+  }
+  .banner .formulario form .campos label {
+    font-size: 0.8rem;
+  }
+  .banner .formulario form .campos input,
+  .banner .formulario form .campos select {
+    height: 2.25rem;
+    margin-top: 0.25rem;
+  }
+  .banner .formulario form .bt-section {
+    margin: 1rem 0 0;
+  }
+  .banner .formulario form .bt-section button {
+    padding: 0.75rem 0;
+    font-size: 0.9rem;
+  }
+  .banner .hamburgers img {
+    width: 80%;
+    z-index: 8;
+    top: 30%;
+    right: -4%;
+  }
+  .cta h1 {
+    font-size: 2rem;
+  }
+  .mercado {
+    padding: 5rem;
+  }
+  .mercado .titulo h1 {
+    font-size: 6rem;
+  }
+  .mercado .titulo h2 {
+    font-size: 2.5rem;
+  }
+  .mercado .titulo p {
+    font-size: 1.15rem;
+  }
+  .mercado .itens .item .pt01 {
+    padding: 1.5rem;
+  }
+  .mercado .itens .item .pt01 img {
+    width: 70%;
+  }
+  .mercado .itens .item .pt02 {
+    padding: 1.5rem;
+  }
+  .mercado .itens .item .pt02 h1 {
+    font-size: 3rem;
+  }
+  .mercado .itens .item .pt03 {
+    padding: 0.75rem 2rem;
+  }
+  .mercado .itens .item .pt03 p {
+    font-size: 1rem;
+  }
+  .modelos {
+    padding: 5rem;
+  }
+  .modelos .titulo h1 {
+    font-size: 6rem;
+  }
+  .modelos .titulo h2 {
+    font-size: 2.5rem;
+  }
+  .modelos .item .texto h1 {
+    font-size: 2rem;
+  }
+  .modelos .item .texto h2 {
+    font-size: 1.25rem;
+    margin: 0 0 1rem;
+  }
+  .modelos .item .texto p {
+    font-size: 0.8rem;
+  }
+  .modelos .item .imagem span {
+    font-size: 2.25rem;
+  }
+  .video .youtube {
+    min-height: 30rem;
+  }
+  .video .youtube .play-button img {
+    width: 6rem;
+    height: 6rem;
+  }
+  .vantagens {
+    min-height: auto;
+    padding: 8rem 8rem 2rem;
+  }
+  .vantagens .titulo h1 {
+    font-size: 6rem;
+  }
+  .vantagens .titulo h2 {
+    font-size: 2.5rem;
+  }
+  .vantagens .itens {
+    margin: 4rem 0 0 5rem;
+  }
+  .vantagens .itens .item {
+    margin: 0 0 2rem;
+  }
+  .vantagens .itens .item .imagem {
+    width: 4rem;
+    height: 4rem;
+    padding: 0.75rem;
+  }
+  .vantagens .itens .item .texto p {
+    font-size: 0.9rem;
+  }
+  .vantagens .hamburgers img {
+    width: 23%;
+  }
+  .galeria .slick-arrow {
+    bottom: 5%;
+    width: 3rem;
+    height: 3rem;
+  }
+  .depoimentos {
+    padding: 8rem;
+  }
+  .depoimentos .titulo h1 {
+    font-size: 6rem;
+  }
+  .depoimentos .titulo h2 {
+    font-size: 2.5rem;
+  }
+  .depoimentos .galeria-dep .item {
+    min-height: 25rem;
+    padding: 1.5rem;
+    margin: 5rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .texto h1 {
+    font-size: 1.5rem;
+  }
+  .depoimentos .galeria-dep .item .texto p {
+    font-size: 1rem;
+    margin: 2rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .imagem {
+    left: 24.5%;
+  }
+  .depoimentos .galeria-dep .item .imagem span {
+    font-size: 8rem;
+    margin: 0 5rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .imagem img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .ondeestamos {
+    padding: 8rem 8rem 10rem;
+  }
+  .ondeestamos h1 {
+    font-size: 6rem;
+    margin: 0 0 -12rem;
+  }
+  .quemsomos {
+    padding: 2rem 8rem;
+  }
+  .quemsomos img {
+    left: 0;
+    bottom: 0;
+    width: 35%;
+  }
+  .quemsomos .texto h1 {
+    font-size: 2rem;
+  }
+  .quemsomos .texto p {
+    font-size: 0.65rem;
+  }
+  .quemsomos .texto a {
+    font-size: 0.7rem;
+  }
+  .footer {
+    font-size: 1rem;
+  }
+  .footer a {
+    font-size: 1rem;
+  }
+  .section-obrigado {
+    background-position-x: center;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1366px) {
+  .banner {
+    padding: 5rem;
+  }
+  .banner .chamada h1 {
+    font-size: 3rem;
+  }
+  .banner .chamada h2 {
+    font-size: 2.5rem;
+  }
+  .banner .chamada h3 {
+    font-size: 3.5rem;
+  }
+  .banner .chamada h3 span.ano {
+    font-size: 1rem;
+  }
+  .banner .chamada h4 {
+    font-size: 1rem;
+  }
+  .banner .formulario {
+    top: 10%;
+    right: 6%;
+  }
+  .banner .formulario .titulo-form h1 {
+    font-size: 3rem;
+  }
+  .banner .formulario .titulo-form h2 {
+    font-size: 1rem;
+  }
+  .banner .formulario form .campos {
+    margin: 1rem 0 0;
+  }
+  .banner .formulario form .campos label {
+    font-size: 0.8rem;
+  }
+  .banner .formulario form .campos input,
+  .banner .formulario form .campos select {
+    height: 2.25rem;
+    margin-top: 0.25rem;
+  }
+  .banner .formulario form .bt-section {
+    margin: 1rem 0 0;
+  }
+  .banner .formulario form .bt-section button {
+    padding: 0.75rem 0;
+    font-size: 0.9rem;
+  }
+  .banner .hamburgers img {
+    width: 60%;
+    z-index: 8;
+    top: 35%;
+    right: 9%;
+  }
+  .cta h1 {
+    font-size: 2rem;
+  }
+  .mercado {
+    padding: 5rem;
+  }
+  .mercado .titulo h1 {
+    font-size: 6rem;
+  }
+  .mercado .titulo h2 {
+    font-size: 2.5rem;
+  }
+  .mercado .titulo p {
+    font-size: 1.15rem;
+  }
+  .mercado .itens .item .pt01 {
+    padding: 1rem;
+  }
+  .mercado .itens .item .pt02 {
+    padding: 1rem;
+  }
+  .mercado .itens .item .pt02 h1 {
+    font-size: 2.5rem;
+  }
+  .mercado .itens .item .pt03 {
+    padding: 0.75rem 2rem;
+  }
+  .mercado .itens .item .pt03 p {
+    font-size: 0.85rem;
+  }
+  .modelos {
+    padding: 5rem;
+  }
+  .modelos .titulo h1 {
+    font-size: 6rem;
+  }
+  .modelos .titulo h2 {
+    font-size: 2.5rem;
+  }
+  .modelos .item .texto h1 {
+    font-size: 2rem;
+  }
+  .modelos .item .texto h2 {
+    font-size: 1.25rem;
+    margin: 0 0 1rem;
+  }
+  .modelos .item .texto p {
+    font-size: 0.8rem;
+  }
+  .modelos .item .imagem span {
+    font-size: 2.25rem;
+  }
+  .video .youtube {
+    min-height: 30rem;
+  }
+  .video .youtube .play-button img {
+    width: 6rem;
+    height: 6rem;
+  }
+  .vantagens {
+    min-height: auto;
+    padding: 8rem 8rem 2rem;
+  }
+  .vantagens .titulo h1 {
+    font-size: 6rem;
+  }
+  .vantagens .titulo h2 {
+    font-size: 2.5rem;
+  }
+  .vantagens .itens {
+    margin: 4rem 0 0 5rem;
+  }
+  .vantagens .itens .item {
+    margin: 0 0 2rem;
+  }
+  .vantagens .itens .item .imagem {
+    width: 4rem;
+    height: 4rem;
+    padding: 0.75rem;
+  }
+  .vantagens .itens .item .texto p {
+    font-size: 0.9rem;
+  }
+  .galeria .slick-arrow {
+    bottom: 5%;
+    width: 3rem;
+    height: 3rem;
+  }
+  .depoimentos {
+    padding: 8rem;
+  }
+  .depoimentos .titulo h1 {
+    font-size: 6rem;
+  }
+  .depoimentos .titulo h2 {
+    font-size: 2.5rem;
+  }
+  .depoimentos .galeria-dep .item {
+    min-height: 25rem;
+    padding: 1.5rem;
+    margin: 5rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .texto h1 {
+    font-size: 1.5rem;
+  }
+  .depoimentos .galeria-dep .item .texto p {
+    font-size: 1rem;
+    margin: 2rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .imagem {
+    left: 24.5%;
+  }
+  .depoimentos .galeria-dep .item .imagem span {
+    font-size: 8rem;
+    margin: 0 5rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .imagem img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .ondeestamos {
+    padding: 8rem 8rem 10rem;
+  }
+  .ondeestamos h1 {
+    font-size: 6rem;
+    margin: 0 0 -12rem;
+  }
+  .quemsomos {
+    padding: 2rem 8rem;
+  }
+  .quemsomos img {
+    left: -2%;
+    bottom: 0;
+    width: 40%;
+  }
+  .quemsomos .texto h1 {
+    font-size: 2rem;
+  }
+  .quemsomos .texto p {
+    font-size: 0.65rem;
+  }
+  .quemsomos .texto a {
+    font-size: 0.7rem;
+  }
+  .footer {
+    font-size: 0.75rem;
+  }
+  .footer a {
+    font-size: 0.75rem;
+  }
+  .section-obrigado {
+    padding: 4rem;
+    background-size: cover;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .banner {
+    padding: 5rem;
+    overflow: hidden;
+  }
+  .banner .chamada h1 {
+    font-size: 2.5rem;
+  }
+  .banner .chamada h2 {
+    font-size: 2rem;
+  }
+  .banner .chamada h3 {
+    font-size: 3rem;
+  }
+  .banner .chamada h3 span.ano {
+    font-size: 1rem;
+  }
+  .banner .chamada h4 {
+    font-size: 1rem;
+  }
+  .banner .chamada span.item {
+    width: 5rem;
+  }
+  .banner .formulario {
+    top: 5%;
+    right: 3%;
+    width: 30%;
+  }
+  .banner .formulario .titulo-form h1 {
+    font-size: 2.5rem;
+  }
+  .banner .formulario .titulo-form h2 {
+    font-size: 1rem;
+  }
+  .banner .formulario form .campos {
+    margin: 1rem 0 0;
+  }
+  .banner .formulario form .campos label {
+    font-size: 0.8rem;
+  }
+  .banner .formulario form .campos input,
+  .banner .formulario form .campos select {
+    height: 2rem;
+    margin-top: 0.25rem;
+  }
+  .banner .formulario form .bt-section {
+    margin: 1rem 0 0;
+  }
+  .banner .formulario form .bt-section button {
+    padding: 0.75rem 0;
+    font-size: 0.9rem;
+  }
+  .banner .hamburgers img {
+    width: 75%;
+    z-index: 8;
+    top: 30%;
+    right: -4%;
+  }
+  .cta h1 {
+    font-size: 1.5rem;
+  }
+  .cta h1 .arrows {
+    width: 3.5rem;
+  }
+  .mercado {
+    padding: 5rem;
+  }
+  .mercado .titulo h1 {
+    font-size: 5rem;
+  }
+  .mercado .titulo h2 {
+    font-size: 2.5rem;
+  }
+  .mercado .titulo p {
+    font-size: 1rem;
+  }
+  .mercado .itens .item .pt01 {
+    padding: 1rem;
+  }
+  .mercado .itens .item .pt01 img {
+    width: 80%;
+  }
+  .mercado .itens .item .pt02 {
+    padding: 1rem;
+  }
+  .mercado .itens .item .pt02 h1 {
+    font-size: 2rem;
+  }
+  .mercado .itens .item .pt03 {
+    padding: 0.5rem 1rem;
+  }
+  .mercado .itens .item .pt03 p {
+    font-size: 0.75rem;
+  }
+  .modelos {
+    padding: 5rem;
+  }
+  .modelos .titulo h1 {
+    font-size: 6rem;
+  }
+  .modelos .titulo h2 {
+    font-size: 2.25rem;
+  }
+  .modelos .item .imagem img {
+    width: 105%;
+  }
+  .modelos .item .imagem span {
+    top: 42%;
+    right: -3%;
+    font-size: 1.5rem;
+  }
+  .modelos .item .texto {
+    padding: 0 1rem;
+  }
+  .modelos .item .texto h1 {
+    font-size: 1.5rem;
+  }
+  .modelos .item .texto h2 {
+    font-size: 1.15rem;
+    margin: 0 0 1rem;
+  }
+  .modelos .item .texto p {
+    font-size: 0.75rem;
+  }
+  .modelos .item .texto p br {
+    display: none;
+  }
+  .video .youtube {
+    min-height: 22rem;
+  }
+  .video .youtube .play-button img {
+    width: 6rem;
+    height: 6rem;
+  }
+  .vantagens {
+    min-height: auto;
+    padding: 8rem 4rem 2rem;
+  }
+  .vantagens .titulo h1 {
+    font-size: 4rem;
+  }
+  .vantagens .titulo h2 {
+    font-size: 2rem;
+  }
+  .vantagens .itens {
+    margin: 4rem 0 0 5rem;
+  }
+  .vantagens .itens .item {
+    margin: 0 0 2rem;
+  }
+  .vantagens .itens .item .imagem {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem;
+  }
+  .vantagens .itens .item .texto p {
+    font-size: 0.75rem;
+  }
+  .vantagens .hamburgers img {
+    width: 26%;
+  }
+  .galeria .slick-arrow {
+    bottom: 5%;
+    width: 3rem;
+    height: 3rem;
+  }
+  .depoimentos {
+    padding: 6rem;
+  }
+  .depoimentos .titulo h1 {
+    font-size: 4rem;
+  }
+  .depoimentos .titulo h2 {
+    font-size: 2.25rem;
+  }
+  .depoimentos .galeria-dep .item {
+    min-height: 20rem;
+    padding: 1rem;
+    margin: 5rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .texto h1 {
+    font-size: 1.25rem;
+  }
+  .depoimentos .galeria-dep .item .texto p {
+    font-size: 0.8rem;
+    margin: 1rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .imagem {
+    left: 24.5%;
+    top: 4%;
+  }
+  .depoimentos .galeria-dep .item .imagem span {
+    font-size: 6rem;
+    margin: 0 5rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .imagem .img {
+    width: 4rem;
+    margin: -4rem 0 0 0;
+    height: 4rem;
+  }
+  .depoimentos .galeria-dep .slick-arrow {
+    width: 3rem;
+    height: 3rem;
+  }
+  .ondeestamos {
+    padding: 8rem 8rem 10rem;
+  }
+  .ondeestamos h1 {
+    font-size: 4rem;
+    margin: 0 0 -8rem;
+  }
+  .quemsomos {
+    padding: 2rem;
+  }
+  .quemsomos img {
+    left: 0%;
+    bottom: 0;
+    width: 25%;
+  }
+  .quemsomos .texto h1 {
+    font-size: 2rem;
+  }
+  .quemsomos .texto p {
+    font-size: 0.65rem;
+  }
+  .quemsomos .texto a {
+    font-size: 0.7rem;
+  }
+  .footer {
+    font-size: 0.75rem;
+  }
+  .footer a {
+    font-size: 0.75rem;
+  }
+  .section-obrigado {
+    padding: 4rem;
+  }
+  .section-obrigado h2 {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .banner {
+    padding: 4rem 4rem 6rem;
+    min-height: auto;
+  }
+  .banner .logo img {
+    width: 45%;
+  }
+  .banner .chamada h1 {
+    font-size: 2rem;
+  }
+  .banner .chamada h2 {
+    font-size: 1.75rem;
+  }
+  .banner .chamada h3 {
+    font-size: 3rem;
+  }
+  .banner .chamada h3 span.ano {
+    font-size: 1rem;
+  }
+  .banner .chamada h4 {
+    font-size: 1rem;
+  }
+  .banner .chamada span.item {
+    width: 5rem;
+  }
+  .banner .formulario {
+    top: 0;
+    right: 0;
+    width: 100%;
+    position: relative;
+  }
+  .banner .formulario .titulo-form h1 {
+    font-size: 2.5rem;
+  }
+  .banner .formulario .titulo-form h2 {
+    font-size: 1rem;
+  }
+  .banner .formulario form .campos {
+    margin: 1rem 0 0;
+  }
+  .banner .formulario form .campos label {
+    font-size: 0.8rem;
+  }
+  .banner .formulario form .campos input,
+  .banner .formulario form .campos select {
+    height: 2rem;
+    margin-top: 0.25rem;
+  }
+  .banner .formulario form .bt-section {
+    margin: 1rem 0 0;
+  }
+  .banner .formulario form .bt-section button {
+    padding: 0.75rem 0;
+    font-size: 0.75rem;
+  }
+  .banner .hamburgers img {
+    width: 70%;
+    z-index: 8;
+    top: initial;
+    right: 0;
+    bottom: -20%;
+    left: -16%;
+  }
+  .cta {
+    text-align: right;
+  }
+  .cta .justify-content-center {
+    justify-content: right !important;
+  }
+  .cta h1 {
+    font-size: 1.45rem;
+  }
+  .cta h1 .arrows {
+    width: 2.5rem;
+  }
+  .mercado {
+    padding: 8rem 4rem 4rem;
+  }
+  .mercado .titulo h1 {
+    font-size: 5rem;
+  }
+  .mercado .titulo h2 {
+    font-size: 2.5rem;
+  }
+  .mercado .titulo p {
+    font-size: 1rem;
+  }
+  .mercado .itens .item .pt01 {
+    padding: 1rem;
+    height: 8vh;
+  }
+  .mercado .itens .item .pt01 img {
+    width: 80%;
+  }
+  .mercado .itens .item .pt02 {
+    padding: 1.5rem;
+    height: 8vh;
+  }
+  .mercado .itens .item .pt02 h1 {
+    font-size: 2rem;
+  }
+  .mercado .itens .item .pt03 {
+    padding: 0.5rem 1rem;
+    height: 8vh;
+  }
+  .mercado .itens .item .pt03 p {
+    font-size: 1rem;
+  }
+  .modelos {
+    padding: 5rem;
+  }
+  .modelos .titulo h1 {
+    font-size: 6rem;
+  }
+  .modelos .titulo h2 {
+    font-size: 2.25rem;
+  }
+  .modelos .item .imagem img {
+    width: 105%;
+  }
+  .modelos .item .imagem span {
+    top: 42%;
+    right: -3%;
+    font-size: 1.5rem;
+  }
+  .modelos .item .texto {
+    padding: 0 1rem;
+  }
+  .modelos .item .texto h1 {
+    font-size: 1.5rem;
+  }
+  .modelos .item .texto h2 {
+    font-size: 1.15rem;
+    margin: 0 0 1rem;
+  }
+  .modelos .item .texto p {
+    font-size: 0.75rem;
+  }
+  .modelos .item .texto p br {
+    display: none;
+  }
+  .video .youtube {
+    min-height: 18rem;
+  }
+  .video .youtube .play-button img {
+    width: 6rem;
+    height: 6rem;
+  }
+  .vantagens {
+    min-height: auto;
+    padding: 8rem 4rem 2rem;
+  }
+  .vantagens .titulo h1 {
+    font-size: 4rem;
+  }
+  .vantagens .titulo h2 {
+    font-size: 2rem;
+  }
+  .vantagens .itens {
+    margin: 4rem 0 0 10rem;
+  }
+  .vantagens .itens .item {
+    margin: 0 0 2rem;
+  }
+  .vantagens .itens .item .imagem {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem;
+  }
+  .vantagens .itens .item .texto p {
+    font-size: 0.75rem;
+  }
+  .vantagens .hamburgers img {
+    width: 35%;
+  }
+  .galeria .slick-arrow {
+    bottom: 5%;
+    width: 3rem;
+    height: 3rem;
+  }
+  .depoimentos {
+    padding: 6rem;
+  }
+  .depoimentos .titulo h1 {
+    font-size: 4rem;
+  }
+  .depoimentos .titulo h2 {
+    font-size: 2.25rem;
+  }
+  .depoimentos .galeria-dep .item {
+    min-height: 20rem;
+    padding: 1rem;
+    margin: 5rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .texto h1 {
+    font-size: 1.25rem;
+  }
+  .depoimentos .galeria-dep .item .texto p {
+    font-size: 0.8rem;
+    margin: 1rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .imagem {
+    left: 24.5%;
+    top: 4%;
+  }
+  .depoimentos .galeria-dep .item .imagem span {
+    font-size: 6rem;
+    margin: 0 5rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .imagem .img {
+    width: 4rem;
+    margin: -4rem 0 0 0;
+    height: 4rem;
+  }
+  .depoimentos .galeria-dep .slick-arrow {
+    width: 3rem;
+    height: 3rem;
+  }
+  .ondeestamos {
+    padding: 4rem;
+    min-height: auto;
+  }
+  .ondeestamos h1 {
+    font-size: 4rem;
+    margin: 0 0 -8rem;
+  }
+  .quemsomos {
+    padding: 2rem;
+  }
+  .quemsomos img {
+    left: 0%;
+    bottom: 0;
+    width: 35%;
+  }
+  .quemsomos .texto h1 {
+    font-size: 2rem;
+  }
+  .quemsomos .texto p {
+    font-size: 0.65rem;
+  }
+  .quemsomos .texto a {
+    font-size: 0.7rem;
+  }
+  .footer {
+    font-size: 0.75rem;
+  }
+  .footer a {
+    font-size: 0.75rem;
+  }
+  .section-obrigado {
+    padding: 4rem;
+  }
+  .section-obrigado h2 {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 380px) and (max-width: 767px) {
+  .banner {
+    padding: 2rem 2rem 4rem;
+    min-height: auto;
+  }
+  .banner .logo img {
+    width: 60%;
+  }
+  .banner .chamada h1 {
+    font-size: 1.85rem;
+  }
+  .banner .chamada h2 {
+    font-size: 1.5rem;
+  }
+  .banner .chamada h3 {
+    font-size: 2.5rem;
+  }
+  .banner .chamada h3 span.ano {
+    font-size: 1.15rem;
+  }
+  .banner .chamada span.item {
+    width: 4rem;
+  }
+  .banner .chamada h4 {
+    font-size: 1.15rem;
+    letter-spacing: 0.75rem;
+  }
+  .banner .formulario {
+    position: relative;
+    width: 100%;
+    right: 0;
+    top: 5%;
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+  }
+  .banner .formulario .titulo-form h1 {
+    font-size: 3rem;
+  }
+  .banner .formulario .titulo-form h2 {
+    font-size: 1.25rem;
+  }
+  .banner .formulario form .campos label {
+    font-size: 0.8rem;
+  }
+  .banner .formulario form .campos input,
+  .banner .formulario form .campos select {
+    height: 2.25rem;
+    font-size: 0.8rem;
+  }
+  .banner .formulario form .bt-section {
+    margin: 1rem 0 0;
+  }
+  .banner .formulario form .bt-section button {
+    padding: 0.8rem 0;
+    font-size: 0.8rem;
+  }
+  .banner .hamburgers {
+    display: none;
+  }
+  .banner .hamburgers img {
+    position: relative;
+    width: 100%;
+    z-index: 20;
+    top: 0;
+    right: 0;
+  }
+  .cta {
+    padding: 1rem;
+  }
+  .cta h1 {
+    font-size: 1rem;
+  }
+  .cta h1 span {
+    padding: 0.25rem 0.75rem;
+  }
+  .cta h1 .arrows {
+    display: none;
+  }
+  .mercado {
+    padding: 6rem 2rem;
+  }
+  .mercado .titulo h1 {
+    font-size: 4.5rem;
+  }
+  .mercado .titulo h2 {
+    font-size: 2.5rem;
+  }
+  .mercado .titulo p {
+    font-size: 0.75rem;
+  }
+  .mercado .titulo p br {
+    display: none;
+  }
+  .mercado .itens {
+    margin: 0;
+  }
+  .mercado .itens .item {
+    margin: 3rem 0 0;
+  }
+  .mercado .itens .item .pt01 {
+    border-radius: 1rem 1rem 0 0;
+    height: auto;
+    padding: 1rem;
+  }
+  .mercado .itens .item .pt01 img {
+    width: 20%;
+  }
+  .mercado .itens .item .pt02 {
+    height: auto;
+    padding: 1rem;
+  }
+  .mercado .itens .item .pt02 h1 {
+    font-size: 3rem;
+  }
+  .mercado .itens .item .pt03 {
+    padding: 1rem;
+    height: auto;
+  }
+  .mercado .itens .item .pt03 p {
+    font-size: 0.9rem;
+  }
+  .modelos {
+    padding: 6rem 2rem;
+  }
+  .modelos .titulo h1 {
+    font-size: 5rem;
+  }
+  .modelos .titulo h2 {
+    font-size: 2rem;
+  }
+  .modelos .item .imagem span {
+    font-size: 2rem;
+    right: 0%;
+  }
+  .modelos .item .texto {
+    padding: 0;
+    text-align: center;
+  }
+  .modelos .item .texto h1 {
+    font-size: 2rem;
+  }
+  .modelos .item .texto h2 {
+    font-size: 1.5rem;
+  }
+  .modelos .item .texto p {
+    font-size: 0.75rem;
+  }
+  .modelos .item .texto p br {
+    display: none;
+  }
+  .video .youtube {
+    min-height: 12rem;
+  }
+  .video .youtube img {
+    width: 150%;
+  }
+  .video .youtube .play-button img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .vantagens {
+    padding: 6rem 2rem;
+  }
+  .vantagens .titulo h1 {
+    font-size: 3rem;
+  }
+  .vantagens .titulo h2 {
+    font-size: 1.5rem;
+    margin: -0.75rem 0 2rem;
+  }
+  .vantagens .itens {
+    margin: 2rem 0 0;
+  }
+  .vantagens .itens .item .imagem {
+    width: 5rem;
+    height: 5rem;
+    padding: 0.75rem;
+  }
+  .vantagens .itens .item .texto {
+    width: 100%;
+    margin: 1rem 0 0;
+  }
+  .vantagens .itens .item .texto p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .vantagens .hamburgers {
+    display: none;
+  }
+  .galeria .slick-arrow {
+    width: 2.5rem;
+    height: 2.5rem;
+    bottom: 10%;
+  }
+  .galeria .next-arrow {
+    left: 52%;
+  }
+  .galeria .prev-arrow {
+    left: 40%;
+  }
+  .depoimentos {
+    padding: 6rem 2rem 2rem;
+  }
+  .depoimentos .titulo h1 {
+    font-size: 2.5rem;
+  }
+  .depoimentos .titulo h2 {
+    font-size: 1.25rem;
+    margin: -0.75rem 0 2rem;
+  }
+  .depoimentos .galeria-dep .item {
+    min-height: auto;
+    padding: 1rem;
+    margin: 2rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .texto {
+    margin: 3rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .texto h1 {
+    font-size: 1rem;
+  }
+  .depoimentos .galeria-dep .item .texto p {
+    font-size: 0.75rem;
+    text-align: justify;
+  }
+  .depoimentos .galeria-dep .item .imagem {
+    left: 16.5%;
+    top: 1%;
+  }
+  .depoimentos .galeria-dep .item .imagem span {
+    font-size: 5rem;
+    margin: 0 2rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .imagem .img {
+    width: 3rem;
+    height: 3rem;
+    margin: -3rem 0 0 0;
+  }
+  .depoimentos .galeria-dep .slick-arrow {
+    bottom: 40%;
+    padding: 0.75rem;
+    width: 3rem;
+    height: 3rem;
+  }
+  .depoimentos .galeria-dep .next-arrow {
+    right: -12%;
+  }
+  .depoimentos .galeria-dep .prev-arrow {
+    left: -12%;
+  }
+  .ondeestamos {
+    padding: 2rem;
+    min-height: auto;
+  }
+  .ondeestamos h1 {
+    margin: 0 0 -5rem;
+    font-size: 3rem;
+  }
+  .quemsomos {
+    padding: 2rem 2rem 4rem;
+  }
+  .quemsomos .texto h1 {
+    font-size: 2rem;
+  }
+  .quemsomos .texto p {
+    font-size: 0.75rem;
+  }
+  .quemsomos .texto a {
+    font-size: 0.8rem;
+  }
+  .quemsomos img {
+    display: none;
+  }
+  .footer {
+    font-size: 0.6rem;
+  }
+  .footer a {
+    font-size: 0.6rem;
+  }
+  .section-obrigado {
+    padding: 2rem;
+  }
+  .section-obrigado .logo img {
+    width: 50%;
+  }
+  .section-obrigado h1 {
+    font-size: 1.5rem;
+  }
+  .section-obrigado h2 {
+    font-size: 0.8rem;
+  }
+  .section-obrigado .btn-whatsapp {
+    padding: 0.8rem 1rem;
+  }
+}
+@media (max-width: 379px) {
+  .banner {
+    padding: 2rem 2rem 4rem;
+    min-height: auto;
+  }
+  .banner .logo img {
+    width: 60%;
+  }
+  .banner .chamada h1 {
+    font-size: 1.5rem;
+  }
+  .banner .chamada h2 {
+    font-size: 1.25rem;
+  }
+  .banner .chamada h3 {
+    font-size: 2.5rem;
+  }
+  .banner .chamada h3 span.ano {
+    font-size: 1.15rem;
+  }
+  .banner .chamada span.item {
+    width: 4rem;
+  }
+  .banner .chamada h4 {
+    font-size: 1.15rem;
+    letter-spacing: 0.75rem;
+  }
+  .banner .formulario {
+    position: relative;
+    width: 100%;
+    right: 0;
+    top: 5%;
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+  }
+  .banner .formulario .titulo-form h1 {
+    font-size: 3rem;
+  }
+  .banner .formulario .titulo-form h2 {
+    font-size: 1.25rem;
+  }
+  .banner .formulario form .campos label {
+    font-size: 0.8rem;
+  }
+  .banner .formulario form .campos input,
+  .banner .formulario form .campos select {
+    height: 2.25rem;
+    font-size: 0.8rem;
+  }
+  .banner .formulario form .bt-section {
+    margin: 1rem 0 0;
+  }
+  .banner .formulario form .bt-section button {
+    padding: 0.8rem 0;
+    font-size: 0.8rem;
+  }
+  .banner .hamburgers {
+    display: none;
+  }
+  .banner .hamburgers img {
+    position: relative;
+    width: 100%;
+    z-index: 20;
+    top: 0;
+    right: 0;
+  }
+  .cta {
+    padding: 1rem;
+  }
+  .cta h1 {
+    font-size: 1rem;
+  }
+  .cta h1 span {
+    padding: 0.25rem 0.75rem;
+  }
+  .cta h1 .arrows {
+    display: none;
+  }
+  .mercado {
+    padding: 6rem 2rem;
+  }
+  .mercado .titulo h1 {
+    font-size: 4.5rem;
+  }
+  .mercado .titulo h2 {
+    font-size: 2.5rem;
+  }
+  .mercado .titulo p {
+    font-size: 0.75rem;
+  }
+  .mercado .titulo p br {
+    display: none;
+  }
+  .mercado .itens {
+    margin: 0;
+  }
+  .mercado .itens .item {
+    margin: 3rem 0 0;
+  }
+  .mercado .itens .item .pt01 {
+    border-radius: 1rem 1rem 0 0;
+    height: auto;
+    padding: 1rem;
+  }
+  .mercado .itens .item .pt01 img {
+    width: 20%;
+  }
+  .mercado .itens .item .pt02 {
+    height: auto;
+    padding: 1rem;
+  }
+  .mercado .itens .item .pt02 h1 {
+    font-size: 3rem;
+  }
+  .mercado .itens .item .pt03 {
+    padding: 1rem;
+    height: auto;
+  }
+  .mercado .itens .item .pt03 p {
+    font-size: 0.9rem;
+  }
+  .modelos {
+    padding: 6rem 2rem;
+  }
+  .modelos .titulo h1 {
+    font-size: 5rem;
+  }
+  .modelos .titulo h2 {
+    font-size: 2rem;
+  }
+  .modelos .item .imagem span {
+    font-size: 2rem;
+    right: 0%;
+  }
+  .modelos .item .texto {
+    padding: 0;
+    text-align: center;
+  }
+  .modelos .item .texto h1 {
+    font-size: 2rem;
+  }
+  .modelos .item .texto h2 {
+    font-size: 1.5rem;
+  }
+  .modelos .item .texto p {
+    font-size: 0.75rem;
+  }
+  .modelos .item .texto p br {
+    display: none;
+  }
+  .video .youtube {
+    min-height: 12rem;
+  }
+  .video .youtube img {
+    width: 150%;
+  }
+  .video .youtube .play-button img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .vantagens {
+    padding: 6rem 2rem;
+  }
+  .vantagens .titulo h1 {
+    font-size: 3rem;
+  }
+  .vantagens .titulo h2 {
+    font-size: 1.5rem;
+    margin: -0.75rem 0 2rem;
+  }
+  .vantagens .itens {
+    margin: 2rem 0 0;
+  }
+  .vantagens .itens .item .imagem {
+    width: 5rem;
+    height: 5rem;
+    padding: 0.75rem;
+  }
+  .vantagens .itens .item .texto {
+    width: 100%;
+    margin: 1rem 0 0;
+  }
+  .vantagens .itens .item .texto p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .vantagens .hamburgers {
+    display: none;
+  }
+  .galeria .slick-arrow {
+    width: 2.5rem;
+    height: 2.5rem;
+    bottom: 10%;
+  }
+  .galeria .next-arrow {
+    left: 52%;
+  }
+  .galeria .prev-arrow {
+    left: 40%;
+  }
+  .depoimentos {
+    padding: 6rem 2rem 2rem;
+  }
+  .depoimentos .titulo h1 {
+    font-size: 2.5rem;
+  }
+  .depoimentos .titulo h2 {
+    font-size: 1.25rem;
+    margin: -0.75rem 0 2rem;
+  }
+  .depoimentos .galeria-dep .item {
+    min-height: auto;
+    padding: 1rem;
+    margin: 2rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .texto {
+    margin: 3rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .texto h1 {
+    font-size: 1rem;
+  }
+  .depoimentos .galeria-dep .item .texto p {
+    font-size: 0.75rem;
+    text-align: justify;
+  }
+  .depoimentos .galeria-dep .item .imagem {
+    left: 16.5%;
+    top: 1%;
+  }
+  .depoimentos .galeria-dep .item .imagem span {
+    font-size: 5rem;
+    margin: 0 2rem 0 0;
+  }
+  .depoimentos .galeria-dep .item .imagem .img {
+    width: 3rem;
+    height: 3rem;
+    margin: -3rem 0 0 0;
+  }
+  .depoimentos .galeria-dep .slick-arrow {
+    bottom: 40%;
+    padding: 0.75rem;
+    width: 3rem;
+    height: 3rem;
+  }
+  .depoimentos .galeria-dep .next-arrow {
+    right: -12%;
+  }
+  .depoimentos .galeria-dep .prev-arrow {
+    left: -12%;
+  }
+  .ondeestamos {
+    padding: 2rem;
+    min-height: auto;
+  }
+  .ondeestamos h1 {
+    margin: 0 0 -5rem;
+    font-size: 3rem;
+  }
+  .quemsomos {
+    padding: 2rem 2rem 4rem;
+  }
+  .quemsomos .texto h1 {
+    font-size: 2rem;
+  }
+  .quemsomos .texto p {
+    font-size: 0.75rem;
+  }
+  .quemsomos .texto a {
+    font-size: 0.8rem;
+  }
+  .quemsomos img {
+    display: none;
+  }
+  .footer {
+    font-size: 0.6rem;
+  }
+  .footer a {
+    font-size: 0.6rem;
+  }
+  .section-obrigado {
+    padding: 2rem;
+  }
+  .section-obrigado .logo img {
+    width: 50%;
+  }
+  .section-obrigado h1 {
+    font-size: 1.5rem;
+  }
+  .section-obrigado h2 {
+    font-size: 0.8rem;
+  }
+  .section-obrigado .btn-whatsapp {
+    padding: 0.8rem 1rem;
+  }
+}/*# sourceMappingURL=mobile.css.map */

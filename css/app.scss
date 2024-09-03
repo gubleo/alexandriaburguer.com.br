@@ -1,0 +1,909 @@
+// CORES
+$colorBlack: #000000;
+$colorBlack2: #2b2929;
+$colorBlack3: #191919;
+$colorBlack4: #0b0505;
+$colorWhite: #ffffff;
+$colorOrange: #f2732b;
+$colorOrange2: #ff6b15;
+$colorOrange3: #b55018;
+$colorGreen: #008f37;
+
+// FONTES
+$fontGobold: "Gobold";
+$fontPoppins: "Poppins", sans-serif;
+$fontAxiforma: "Axiforma Book";
+
+// INICIO CSS
+* {
+  box-sizing: border-box;
+  outline: none;
+  font-family: $fontPoppins;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  padding: 8rem;
+  min-height: 100vh;
+  background: url("../img/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+  position: relative;
+
+  .logo {
+    margin: 0 0 2%;
+    display: block;
+    text-align: center;
+    img {
+      width: 25%;
+    }
+  }
+
+  // .hamburgers {
+  //   img {
+  //     position: absolute;
+  //     width: 70%;
+  //     z-index: 8;
+  //     top: 25%;
+  //     right: 8%;
+  //   }
+  // }
+
+  .hamburgers {
+    img {
+      position: absolute;
+      width: 75%;
+      z-index: 8;
+      top: 28%;
+      right: 0%;
+    }
+  }
+
+  .chamada {
+    text-align: center;
+    position: relative;
+    z-index: 10;
+
+    h1 {
+      font-family: $fontGobold;
+      color: $colorOrange2;
+      text-transform: uppercase;
+      font-weight: 900;
+      font-size: 4.25rem;
+      margin: 0;
+    }
+
+    h2 {
+      color: $colorWhite;
+      font-family: $fontGobold;
+      font-weight: 900;
+      font-size: 3rem;
+      text-transform: uppercase;
+      position: relative;
+      margin: 0;
+    }
+
+    span.item {
+      width: 8rem;
+      height: 0.25rem;
+      background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 0.727328431372549) 35%,
+        rgba(205, 205, 205, 0) 100%
+      );
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    h4 {
+      color: $colorOrange;
+      font-family: $fontGobold;
+      font-weight: 900;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 1.15rem;
+      position: relative;
+      margin: 2rem 0 0;
+    }
+
+    h3 {
+      color: $colorWhite;
+      font-family: $fontGobold;
+      font-weight: 900;
+      font-size: 4rem;
+      text-transform: uppercase;
+      position: relative;
+      margin: 0;
+
+      span.ano {
+        color: $colorOrange;
+        font-family: $fontGobold;
+        font-weight: 900;
+        font-size: 1.75rem;
+        text-transform: uppercase;
+        letter-spacing: 1.25rem;
+        position: relative;
+        margin: 0;
+        display: block;
+
+        span.item {
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+
+  .formulario {
+    box-shadow: 0px 0px 30px 3px rgba(242, 115, 43, 0.9);
+    background: $colorOrange;
+    position: fixed;
+    top: 15%;
+    right: 5%;
+    padding: 2rem;
+    z-index: 15;
+    width: 25%;
+    border-radius: 2rem;
+
+    .titulo-form {
+      text-align: center;
+
+      h1 {
+        color: $colorBlack;
+        text-align: center;
+        font-weight: 900;
+        font-size: 4.5rem;
+        margin: 0;
+        text-transform: uppercase;
+        font-family: $fontGobold;
+      }
+
+      h2 {
+        font-size: 1.75rem;
+        letter-spacing: 0.15rem;
+        font-weight: 300;
+        margin: 0;
+        color: $colorWhite;
+        font-family: $fontGobold;
+      }
+    }
+
+    form {
+      .campos {
+        margin-top: 3rem;
+
+        label {
+          font-size: 1rem;
+          color: $colorBlack;
+          font-weight: 600;
+          text-transform: uppercase;
+          display: block;
+        }
+
+        input,
+        select {
+          display: block;
+          border-radius: 0.2rem;
+          height: 3.25rem;
+          width: 100%;
+          border: none;
+          background-color: $colorWhite;
+          color: $colorBlack;
+          font-size: 0.9rem;
+          font-weight: 400;
+          margin-top: 0.5rem;
+          padding: 0 1rem;
+          border-radius: 1.25rem;
+        }
+      }
+
+      .bt-section {
+        margin-top: 2rem;
+
+        button {
+          width: 100%;
+          border: none;
+          color: $colorWhite;
+          padding: 1rem 0;
+          border-radius: 0.25rem;
+          font-size: 1.2rem;
+          text-decoration: none;
+          font-weight: 500;
+          text-transform: uppercase;
+          cursor: pointer;
+          border-radius: 2rem;
+        }
+      }
+    }
+  }
+}
+
+.cta {
+  padding: 2rem;
+  position: relative;
+  z-index: 3;
+
+  h1 {
+    font-family: $fontGobold;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3rem;
+    margin: 0;
+    display: inline-block;
+
+    span {
+      background-color: $colorOrange3;
+      font-family: $fontGobold;
+      padding: 0.25rem 1rem;
+    }
+
+    .arrows {
+      margin-left: 1rem;
+      width: 5rem;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}
+
+.cta.orange {
+  background-color: $colorOrange2;
+
+  h1 {
+    color: $colorWhite;
+  }
+}
+
+.cta.white {
+  background-color: $colorWhite;
+
+  h1 {
+    color: $colorOrange2;
+    text-decoration: underline $colorOrange2;
+  }
+}
+
+.mercado {
+  background-color: $colorBlack3;
+  padding: 8rem;
+
+  .titulo {
+    text-align: center;
+
+    h1 {
+      color: $colorBlack2;
+      font-size: 8rem;
+      position: relative;
+      font-family: $fontGobold;
+      margin: 0;
+      line-height: 0;
+      z-index: 2;
+    }
+
+    h2 {
+      position: relative;
+      z-index: 8;
+      color: $colorOrange2;
+      font-family: $fontGobold;
+      font-size: 3rem;
+      margin: -1.5rem 0 2rem;
+    }
+
+    p {
+      font-size: 1.25rem;
+      color: $colorWhite;
+    }
+  }
+
+  .itens {
+    margin: 5rem 0 0;
+
+    .item {
+      margin: 0 0 5rem;
+
+      .pt01 {
+        padding: 2rem;
+        background-color: $colorOrange2;
+        border-radius: 1rem 0 0 1rem;
+        height: 12vh;
+        text-align: center;
+
+        img {
+          width: 60%;
+        }
+      }
+
+      .pt02 {
+        padding: 2rem;
+        height: 12vh;
+
+        h1 {
+          font-family: $fontGobold;
+          font-size: 3.5rem;
+          font-weight: 600;
+          margin: 0;
+          color: $colorWhite;
+          text-align: center;
+          vertical-align: middle;
+        }
+      }
+
+      .pt03 {
+        padding: 1.25rem 4rem;
+        background-color: $colorOrange2;
+        border-radius: 0 1rem 1rem 0;
+        height: 12vh;
+
+        p {
+          font-size: 1.3rem;
+          color: $colorWhite;
+          margin: 0;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}
+
+.modelos {
+  background-color: $colorBlack4;
+  padding: 8rem;
+
+  .titulo {
+    text-align: center;
+
+    h1 {
+      color: $colorBlack2;
+      font-size: 8rem;
+      position: relative;
+      font-family: $fontGobold;
+      margin: 0;
+      line-height: 0;
+      z-index: 2;
+    }
+
+    h2 {
+      position: relative;
+      z-index: 8;
+      color: $colorOrange2;
+      font-family: $fontGobold;
+      font-size: 3rem;
+      margin: -1.5rem 0 2rem;
+    }
+  }
+
+  .item {
+    margin: 8rem 0 0;
+
+    .imagem {
+      position: relative;
+
+      img {
+        width: 100%;
+      }
+
+      span {
+        font-size: 3.5rem;
+        color: $colorWhite;
+        position: absolute;
+        top: 40%;
+        right: 1%;
+        font-family: $fontGobold;
+      }
+    }
+
+    .texto {
+      padding: 0 3rem;
+
+      h1 {
+        font-size: 3rem;
+        font-family: $fontGobold;
+        color: $colorWhite;
+        margin: 0;
+        letter-spacing: 0.5rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+        font-family: $fontGobold;
+        color: $colorOrange2;
+        margin: 0 0 2rem;
+      }
+
+      p {
+        margin: 0;
+        font-size: 1.15rem;
+        color: $colorWhite;
+      }
+    }
+  }
+}
+
+.video {
+  .youtube {
+    width: 100%;
+    min-height: 45rem;
+    margin: 0 auto;
+    background-color: $colorWhite;
+    border: 0;
+    margin-bottom: 0;
+    position: relative;
+    border-radius: 0;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+
+    iframe {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+    }
+
+    img {
+      width: 100%;
+      top: -1%;
+      left: 0;
+      opacity: 1;
+      cursor: pointer;
+      position: absolute;
+    }
+
+    .play-button {
+      position: absolute;
+      cursor: pointer;
+      z-index: 1;
+      border-radius: 0%;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      transform: translate3d(-50%, -50%, 0);
+
+      .play {
+        display: inline-block;
+        margin: 0rem;
+        color: $colorWhite;
+        font-size: 7rem;
+        font-weight: normal;
+        text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        text-transform: uppercase;
+        vertical-align: middle;
+      }
+
+      img {
+        display: inline-block;
+        width: 10rem;
+        height: 10rem;
+        margin: 0 2rem;
+        position: relative;
+        top: 0;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+.vantagens {
+  padding: 8rem 16rem 2rem;
+  min-height: 100vh;
+  background: url("../img/banner-vantagens.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  position: relative;
+
+  .titulo {
+    text-align: center;
+
+    h1 {
+      color: $colorBlack2;
+      font-size: 10rem;
+      position: relative;
+      font-family: $fontGobold;
+      margin: 0;
+      line-height: 0;
+      z-index: 6;
+    }
+
+    h2 {
+      position: relative;
+      z-index: 8;
+      color: $colorOrange2;
+      font-family: $fontGobold;
+      font-size: 4rem;
+      margin: -1.5rem 0 2rem;
+    }
+  }
+
+  .itens {
+    margin: 8rem 0 0;
+    position: relative;
+    z-index: 12;
+
+    .item {
+      margin: 0 0 4rem;
+
+      .imagem {
+        background-color: $colorBlack4;
+        border: 0.25rem solid $colorOrange2;
+        border-radius: 50%;
+        width: 6rem;
+        height: 6rem;
+        padding: 1rem;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .texto {
+        p {
+          font-size: 1.25rem;
+          color: $colorWhite;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .hamburgers {
+    img {
+      position: absolute;
+      z-index: 10;
+      left: 0;
+      bottom: 0;
+      width: 24%;
+    }
+  }
+}
+
+.galeria {
+  background-color: $colorBlack4;
+  overflow: hidden;
+  padding: 0 0 6rem;
+  margin: 0;
+  position: relative;
+  z-index: 5;
+
+  .imagem {
+    img {
+      width: 100%;
+    }
+  }
+
+  .slick-arrow {
+    position: absolute;
+    bottom: -1%;
+    background: transparent;
+    border-radius: 50%;
+    border: none;
+    padding: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    z-index: 10;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .prev-arrow {
+    left: 45%;
+  }
+
+  .next-arrow {
+    left: 50%;
+  }
+}
+
+.depoimentos {
+  background-color: $colorBlack4;
+  padding: 8rem 12rem;
+
+  .titulo {
+    text-align: center;
+
+    h1 {
+      color: $colorBlack2;
+      font-size: 8rem;
+      position: relative;
+      font-family: $fontGobold;
+      margin: 0;
+      line-height: 0;
+      z-index: 2;
+    }
+
+    h2 {
+      position: relative;
+      z-index: 8;
+      color: $colorOrange2;
+      font-family: $fontGobold;
+      font-size: 3rem;
+      margin: -1.5rem 0 2rem;
+    }
+  }
+
+  .galeria-dep {
+    .item {
+      border: 0.2rem solid $colorBlack2;
+      min-height: 30rem;
+      padding: 2rem;
+      border-radius: 1rem;
+      position: relative;
+      z-index: 10;
+      margin: 15rem 0 0;
+
+      .imagem {
+        z-index: 12;
+        position: absolute;
+        margin: 0;
+        top: 8%;
+        left: 27.5%;
+
+        span {
+          font-family: $fontAxiforma;
+          font-size: 10rem;
+          font-weight: 300;
+          color: $colorOrange2;
+          margin: 0 8rem 0 0;
+          line-height: 0;
+          display: inline-block;
+          vertical-align: middle;
+        }
+
+        .img {
+          width: 6rem;
+          height: 6rem;
+          border-radius: 50%;
+          background-color: $colorOrange2;
+          display: inline-block;
+          vertical-align: middle;
+          margin: -6rem 0 0 0;
+        }
+      }
+
+      .texto {
+        text-align: center;
+        margin: 5rem 0 0;
+
+        h1 {
+          font-size: 2rem;
+          font-family: $fontGobold;
+          color: $colorOrange2;
+          margin: 0;
+        }
+
+        p {
+          font-size: 1.25rem;
+          color: $colorWhite;
+          margin: 3rem 0 0;
+
+          span {
+            color: $colorOrange2;
+          }
+        }
+      }
+    }
+
+    .slick-arrow {
+      position: absolute;
+      bottom: 30%;
+      background: transparent;
+      border-radius: 50%;
+      padding: 1rem;
+      border: none;
+      width: 5rem;
+      height: 5rem;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .prev-arrow {
+      left: -10%;
+    }
+
+    .next-arrow {
+      right: -10%;
+    }
+  }
+}
+
+.ondeestamos {
+  padding: 8rem 8rem 15rem;
+  min-height: 100vh;
+  background: url("../img/banner-ondeestamos.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+
+  h1 {
+    font-family: $fontGobold;
+    color: $colorOrange2;
+    font-size: 10rem;
+    text-align: center;
+    line-height: 0.8;
+    margin: 0 0 -22rem;
+    z-index: 10;
+    position: relative;
+    text-shadow: 0px 0px 15px $colorBlack2;
+
+    span {
+      font-family: $fontGobold;
+      color: $colorWhite;
+    }
+  }
+
+  img {
+    width: 100%;
+    z-index: 8;
+    position: relative;
+  }
+}
+
+.quemsomos {
+  padding: 3rem 8rem;
+  background: url("../img/banner-quemsomos.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+  position: relative;
+
+  img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 35%;
+  }
+
+  .texto {
+    h1 {
+      font-size: 3rem;
+      font-family: $fontGobold;
+      margin: 0;
+      color: $colorWhite;
+      text-align: center;
+    }
+
+    p {
+      color: $colorWhite;
+      font-size: 1rem;
+      text-align: justify;
+      margin: 0;
+      text-indent: 2rem;
+    }
+
+    a {
+      border: 0.15rem solid $colorOrange2;
+      border-radius: 1rem;
+      padding: 0.5rem 2rem;
+      font-size: 1rem;
+      color: $colorWhite;
+      text-decoration: none;
+      display: block;
+      margin: 1rem 0 0;
+      width: fit-content;
+    }
+  }
+}
+
+.barra-fixa {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  z-index: 9999999;
+  background: $colorOrange2;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+
+  .row {
+    margin-bottom: 0;
+
+    span {
+      color: $colorBlack;
+      font-size: 0.75rem;
+      font-weight: 300;
+    }
+
+    .btn-barra {
+      display: block;
+      padding: 0.625rem;
+      color: $colorWhite;
+      font-size: 0.75rem;
+      font-weight: 400;
+      background-color: $colorGreen;
+      border-radius: 0.3125rem;
+      text-transform: uppercase;
+      text-align: center;
+      text-decoration: none;
+    }
+  }
+}
+
+.footer {
+  padding: 1.25rem 3rem;
+  font-family: $fontGobold;
+  background-color: $colorOrange;
+  position: relative;
+  z-index: 12;
+  color: $colorWhite;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 500;
+
+  span {
+    font-family: $fontGobold;
+  }
+
+  a {
+    text-decoration: none;
+    color: $colorWhite;
+    font-family: $fontGobold;
+  }
+}
+
+.section-obrigado {
+  padding: 8rem;
+  min-height: 100vh;
+  background: url("../img/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  position: relative;
+
+  .logo {
+    img {
+      width: 40%;
+    }
+  }
+
+  h1 {
+    display: block;
+    color: $colorWhite;
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 5rem 0 0;
+  }
+
+  h2 {
+    display: block;
+    color: $colorWhite;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  .btn-whatsapp {
+    display: inline-block;
+    margin-top: 1.875rem;
+    padding: 0.9375rem 2.5rem;
+    color: $colorWhite;
+    font-size: 1rem;
+    font-weight: bold;
+    background: $colorOrange;
+    border: none;
+    border-radius: 1.5625rem;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,2601 @@
+$colorBlack: #000000;
+$colorWhite: #ffffff;
+
+//DESATIVAR BARRA_FIXA DESKTOP
+@media (min-width: 1024px) {
+  .barra-fixa {
+    display: none;
+  }
+}
+
+//ATIVAR BARRA_FIXA MOBILE
+@media (max-width: 1023px) {
+  .barra-fixa {
+    display: block;
+  }
+}
+
+//Responsivo Desktop
+//Css principal -> 1920px x 1080px
+@media (min-width: 1921px) {
+  //Resolução 2560px x 1080px
+
+  .banner {
+    .hamburgers {
+      img {
+        width: 55%;
+        z-index: 8;
+        top: 30%;
+        right: 16%;
+      }
+    }
+  }
+
+  .footer {
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+  }
+
+  .section-obrigado {
+    background-size: cover;
+
+    .logo {
+      img {
+        width: 30%;
+      }
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    .btn-whatsapp {
+      font-size: 1.5rem;
+      padding: 1.5rem 4rem;
+      margin-top: 2rem;
+    }
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 1919px) {
+  //Resolução 1600px x 900px
+  //Resolução 1680px x 1050px
+
+  .banner {
+    padding: 5rem;
+
+    .chamada {
+      h1 {
+        font-size: 4rem;
+      }
+
+      h2 {
+        font-size: 3rem;
+      }
+
+      h3 {
+        font-size: 3.5rem;
+
+        span.ano {
+          font-size: 1rem;
+        }
+      }
+
+      h4 {
+        font-size: 1rem;
+      }
+    }
+
+    .formulario {
+      top: 15%;
+      right: 6%;
+
+      .titulo-form {
+        h1 {
+          font-size: 3rem;
+        }
+
+        h2 {
+          font-size: 1rem;
+        }
+      }
+
+      form {
+        .campos {
+          margin: 1rem 0 0;
+          label {
+            font-size: 0.8rem;
+          }
+
+          input,
+          select {
+            height: 2.25rem;
+            margin-top: 0.25rem;
+          }
+        }
+
+        .bt-section {
+          margin: 1rem 0 0;
+          button {
+            padding: 0.75rem 0;
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+
+    // .hamburgers {
+    //   img {
+    //     width: 75%;
+    //     z-index: 8;
+    //     top: 18%;
+    //     right: 4%;
+    //   }
+    // }
+  }
+
+  .cta {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  .mercado {
+    padding: 5rem;
+
+    .titulo {
+      h1 {
+        font-size: 6rem;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        font-size: 1.15rem;
+      }
+    }
+
+    .itens {
+      .item {
+        .pt01 {
+          padding: 1.5rem;
+
+          img {
+            width: 70%;
+          }
+        }
+
+        .pt02 {
+          padding: 1.5rem;
+
+          h1 {
+            font-size: 3rem;
+          }
+        }
+
+        .pt03 {
+          padding: 0.75rem 2rem;
+
+          p {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  .modelos {
+    padding: 5rem;
+
+    .titulo {
+      h1 {
+        font-size: 6rem;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+    }
+
+    .item {
+      .texto {
+        h1 {
+          font-size: 2rem;
+        }
+
+        h2 {
+          font-size: 1.25rem;
+          margin: 0 0 1rem;
+        }
+
+        p {
+          font-size: 0.8rem;
+        }
+      }
+
+      .imagem {
+        span {
+          font-size: 2.25rem;
+        }
+      }
+    }
+  }
+
+  .video {
+    .youtube {
+      min-height: 30rem;
+
+      .play-button {
+        img {
+          width: 6rem;
+          height: 6rem;
+        }
+      }
+    }
+  }
+
+  .vantagens {
+    min-height: auto;
+    padding: 8rem 8rem 2rem;
+
+    .titulo {
+      h1 {
+        font-size: 6rem;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+    }
+
+    .itens {
+      margin: 4rem 0 0 5rem;
+      .item {
+        margin: 0 0 2rem;
+
+        .imagem {
+          width: 4rem;
+          height: 4rem;
+          padding: 0.75rem;
+        }
+
+        .texto {
+          p {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+
+    .hamburgers {
+      img {
+        width: 23%;
+      }
+    }
+  }
+
+  .depoimentos {
+    padding: 8rem;
+
+    .titulo {
+      h1 {
+        font-size: 6rem;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+    }
+
+    .galeria-dep {
+      .item {
+        min-height: 25rem;
+        padding: 1.5rem;
+        margin: 5rem 0 0;
+
+        .texto {
+          h1 {
+            font-size: 1.5rem;
+          }
+
+          p {
+            font-size: 1rem;
+            margin: 2rem 0 0;
+          }
+        }
+
+        .imagem {
+          left: 24.5%;
+
+          span {
+            font-size: 8rem;
+            margin: 0 5rem 0 0;
+          }
+
+          img {
+            width: 5rem;
+            height: 5rem;
+          }
+        }
+      }
+    }
+  }
+
+  .ondeestamos {
+    padding: 8rem 8rem 10rem;
+
+    h1 {
+      font-size: 6rem;
+      margin: 0 0 -12rem;
+    }
+  }
+
+  .quemsomos {
+    padding: 2rem 8rem;
+
+    img {
+      left: 0;
+      bottom: 0;
+      width: 32%;
+    }
+
+    .texto {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 0.65rem;
+      }
+
+      a {
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  .footer {
+    font-size: 1rem;
+
+    a {
+      font-size: 1rem;
+    }
+  }
+
+  .section-obrigado {
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1367px) and (max-width: 1440px) {
+  //Resolução 1440px x 900px
+
+  .banner {
+    padding: 5rem;
+    overflow: hidden;
+
+    .chamada {
+      h1 {
+        font-size: 4rem;
+      }
+
+      h2 {
+        font-size: 3rem;
+      }
+
+      h3 {
+        font-size: 3.5rem;
+
+        span.ano {
+          font-size: 1rem;
+        }
+      }
+
+      h4 {
+        font-size: 1rem;
+      }
+    }
+
+    .formulario {
+      top: 15%;
+      right: 6%;
+
+      .titulo-form {
+        h1 {
+          font-size: 3rem;
+        }
+
+        h2 {
+          font-size: 1rem;
+        }
+      }
+
+      form {
+        .campos {
+          margin: 1rem 0 0;
+          label {
+            font-size: 0.8rem;
+          }
+
+          input,
+          select {
+            height: 2.25rem;
+            margin-top: 0.25rem;
+          }
+        }
+
+        .bt-section {
+          margin: 1rem 0 0;
+          button {
+            padding: 0.75rem 0;
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+
+    // .hamburgers {
+    //   img {
+    //     width: 75%;
+    //     z-index: 8;
+    //     top: 30%;
+    //     right: 4%;
+    //   }
+    // }
+
+    .hamburgers {
+      img {
+        width: 80%;
+        z-index: 8;
+        top: 30%;
+        right: -4%;
+      }
+    }
+  }
+
+  .cta {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  .mercado {
+    padding: 5rem;
+
+    .titulo {
+      h1 {
+        font-size: 6rem;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        font-size: 1.15rem;
+      }
+    }
+
+    .itens {
+      .item {
+        .pt01 {
+          padding: 1.5rem;
+
+          img {
+            width: 70%;
+          }
+        }
+
+        .pt02 {
+          padding: 1.5rem;
+
+          h1 {
+            font-size: 3rem;
+          }
+        }
+
+        .pt03 {
+          padding: 0.75rem 2rem;
+
+          p {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  .modelos {
+    padding: 5rem;
+
+    .titulo {
+      h1 {
+        font-size: 6rem;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+    }
+
+    .item {
+      .texto {
+        h1 {
+          font-size: 2rem;
+        }
+
+        h2 {
+          font-size: 1.25rem;
+          margin: 0 0 1rem;
+        }
+
+        p {
+          font-size: 0.8rem;
+        }
+      }
+
+      .imagem {
+        span {
+          font-size: 2.25rem;
+        }
+      }
+    }
+  }
+
+  .video {
+    .youtube {
+      min-height: 30rem;
+
+      .play-button {
+        img {
+          width: 6rem;
+          height: 6rem;
+        }
+      }
+    }
+  }
+
+  .vantagens {
+    min-height: auto;
+    padding: 8rem 8rem 2rem;
+
+    .titulo {
+      h1 {
+        font-size: 6rem;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+    }
+
+    .itens {
+      margin: 4rem 0 0 5rem;
+      .item {
+        margin: 0 0 2rem;
+
+        .imagem {
+          width: 4rem;
+          height: 4rem;
+          padding: 0.75rem;
+        }
+
+        .texto {
+          p {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+
+    .hamburgers {
+      img {
+        width: 23%;
+      }
+    }
+  }
+
+  .galeria {
+    .slick-arrow {
+      bottom: 5%;
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+
+  .depoimentos {
+    padding: 8rem;
+
+    .titulo {
+      h1 {
+        font-size: 6rem;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+    }
+
+    .galeria-dep {
+      .item {
+        min-height: 25rem;
+        padding: 1.5rem;
+        margin: 5rem 0 0;
+
+        .texto {
+          h1 {
+            font-size: 1.5rem;
+          }
+
+          p {
+            font-size: 1rem;
+            margin: 2rem 0 0;
+          }
+        }
+
+        .imagem {
+          left: 24.5%;
+
+          span {
+            font-size: 8rem;
+            margin: 0 5rem 0 0;
+          }
+
+          img {
+            width: 5rem;
+            height: 5rem;
+          }
+        }
+      }
+    }
+  }
+
+  .ondeestamos {
+    padding: 8rem 8rem 10rem;
+
+    h1 {
+      font-size: 6rem;
+      margin: 0 0 -12rem;
+    }
+  }
+
+  .quemsomos {
+    padding: 2rem 8rem;
+
+    img {
+      left: 0;
+      bottom: 0;
+      width: 35%;
+    }
+
+    .texto {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 0.65rem;
+      }
+
+      a {
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  .footer {
+    font-size: 1rem;
+
+    a {
+      font-size: 1rem;
+    }
+  }
+
+  .section-obrigado {
+    background-position-x: center;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1366px) {
+  //Resolução 1280px x 720px
+  //Resolução 1366px x 768px
+
+  .banner {
+    padding: 5rem;
+
+    .chamada {
+      h1 {
+        font-size: 3rem;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+
+      h3 {
+        font-size: 3.5rem;
+
+        span.ano {
+          font-size: 1rem;
+        }
+      }
+
+      h4 {
+        font-size: 1rem;
+      }
+    }
+
+    .formulario {
+      top: 10%;
+      right: 6%;
+
+      .titulo-form {
+        h1 {
+          font-size: 3rem;
+        }
+
+        h2 {
+          font-size: 1rem;
+        }
+      }
+
+      form {
+        .campos {
+          margin: 1rem 0 0;
+          label {
+            font-size: 0.8rem;
+          }
+
+          input,
+          select {
+            height: 2.25rem;
+            margin-top: 0.25rem;
+          }
+        }
+
+        .bt-section {
+          margin: 1rem 0 0;
+          button {
+            padding: 0.75rem 0;
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+
+    // .hamburgers {
+    //   img {
+    //     width: 65%;
+    //     z-index: 8;
+    //     top: 28%;
+    //     right: 6%;
+    //   }
+    // }
+
+    .hamburgers {
+      img {
+        width: 60%;
+        z-index: 8;
+        top: 35%;
+        right: 9%;
+      }
+    }
+  }
+
+  .cta {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  .mercado {
+    padding: 5rem;
+
+    .titulo {
+      h1 {
+        font-size: 6rem;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        font-size: 1.15rem;
+      }
+    }
+
+    .itens {
+      .item {
+        .pt01 {
+          padding: 1rem;
+        }
+
+        .pt02 {
+          padding: 1rem;
+
+          h1 {
+            font-size: 2.5rem;
+          }
+        }
+
+        .pt03 {
+          padding: 0.75rem 2rem;
+
+          p {
+            font-size: 0.85rem;
+          }
+        }
+      }
+    }
+  }
+
+  .modelos {
+    padding: 5rem;
+
+    .titulo {
+      h1 {
+        font-size: 6rem;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+    }
+
+    .item {
+      .texto {
+        h1 {
+          font-size: 2rem;
+        }
+
+        h2 {
+          font-size: 1.25rem;
+          margin: 0 0 1rem;
+        }
+
+        p {
+          font-size: 0.8rem;
+        }
+      }
+
+      .imagem {
+        span {
+          font-size: 2.25rem;
+        }
+      }
+    }
+  }
+
+  .video {
+    .youtube {
+      min-height: 30rem;
+
+      .play-button {
+        img {
+          width: 6rem;
+          height: 6rem;
+        }
+      }
+    }
+  }
+
+  .vantagens {
+    min-height: auto;
+    padding: 8rem 8rem 2rem;
+
+    .titulo {
+      h1 {
+        font-size: 6rem;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+    }
+
+    .itens {
+      margin: 4rem 0 0 5rem;
+      .item {
+        margin: 0 0 2rem;
+
+        .imagem {
+          width: 4rem;
+          height: 4rem;
+          padding: 0.75rem;
+        }
+
+        .texto {
+          p {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+
+  .galeria {
+    .slick-arrow {
+      bottom: 5%;
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+
+  .depoimentos {
+    padding: 8rem;
+
+    .titulo {
+      h1 {
+        font-size: 6rem;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+    }
+
+    .galeria-dep {
+      .item {
+        min-height: 25rem;
+        padding: 1.5rem;
+        margin: 5rem 0 0;
+
+        .texto {
+          h1 {
+            font-size: 1.5rem;
+          }
+
+          p {
+            font-size: 1rem;
+            margin: 2rem 0 0;
+          }
+        }
+
+        .imagem {
+          left: 24.5%;
+
+          span {
+            font-size: 8rem;
+            margin: 0 5rem 0 0;
+          }
+
+          img {
+            width: 5rem;
+            height: 5rem;
+          }
+        }
+      }
+    }
+  }
+
+  .ondeestamos {
+    padding: 8rem 8rem 10rem;
+
+    h1 {
+      font-size: 6rem;
+      margin: 0 0 -12rem;
+    }
+  }
+
+  .quemsomos {
+    padding: 2rem 8rem;
+
+    img {
+      left: -2%;
+      bottom: 0;
+      width: 40%;
+    }
+
+    .texto {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 0.65rem;
+      }
+
+      a {
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  .footer {
+    font-size: 0.75rem;
+
+    a {
+      font-size: 0.75rem;
+    }
+  }
+
+  .section-obrigado {
+    padding: 4rem;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  //Resolução 1024px x 600px
+
+  .banner {
+    padding: 5rem;
+    overflow: hidden;
+
+    .chamada {
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      h3 {
+        font-size: 3rem;
+
+        span.ano {
+          font-size: 1rem;
+        }
+      }
+
+      h4 {
+        font-size: 1rem;
+      }
+
+      span.item {
+        width: 5rem;
+      }
+    }
+
+    .formulario {
+      top: 5%;
+      right: 3%;
+      width: 30%;
+
+      .titulo-form {
+        h1 {
+          font-size: 2.5rem;
+        }
+
+        h2 {
+          font-size: 1rem;
+        }
+      }
+
+      form {
+        .campos {
+          margin: 1rem 0 0;
+          label {
+            font-size: 0.8rem;
+          }
+
+          input,
+          select {
+            height: 2rem;
+            margin-top: 0.25rem;
+          }
+        }
+
+        .bt-section {
+          margin: 1rem 0 0;
+          button {
+            padding: 0.75rem 0;
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+
+    // .hamburgers {
+    //   img {
+    //     width: 60%;
+    //     z-index: 8;
+    //     top: 40%;
+    //     right: 8%;
+    //   }
+    // }
+
+    .hamburgers {
+      img {
+        width: 75%;
+        z-index: 8;
+        top: 30%;
+        right: -4%;
+      }
+    }
+  }
+
+  .cta {
+    h1 {
+      font-size: 1.5rem;
+
+      .arrows {
+        width: 3.5rem;
+      }
+    }
+  }
+
+  .mercado {
+    padding: 5rem;
+
+    .titulo {
+      h1 {
+        font-size: 5rem;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .itens {
+      .item {
+        .pt01 {
+          padding: 1rem;
+
+          img {
+            width: 80%;
+          }
+        }
+
+        .pt02 {
+          padding: 1rem;
+
+          h1 {
+            font-size: 2rem;
+          }
+        }
+
+        .pt03 {
+          padding: 0.5rem 1rem;
+
+          p {
+            font-size: 0.75rem;
+          }
+        }
+      }
+    }
+  }
+
+  .modelos {
+    padding: 5rem;
+
+    .titulo {
+      h1 {
+        font-size: 6rem;
+      }
+
+      h2 {
+        font-size: 2.25rem;
+      }
+    }
+
+    .item {
+      .imagem {
+        img {
+          width: 105%;
+        }
+
+        span {
+          top: 42%;
+          right: -3%;
+          font-size: 1.5rem;
+        }
+      }
+
+      .texto {
+        padding: 0 1rem;
+
+        h1 {
+          font-size: 1.5rem;
+        }
+
+        h2 {
+          font-size: 1.15rem;
+          margin: 0 0 1rem;
+        }
+
+        p {
+          font-size: 0.75rem;
+          br {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .video {
+    .youtube {
+      min-height: 22rem;
+
+      .play-button {
+        img {
+          width: 6rem;
+          height: 6rem;
+        }
+      }
+    }
+  }
+
+  .vantagens {
+    min-height: auto;
+    padding: 8rem 4rem 2rem;
+
+    .titulo {
+      h1 {
+        font-size: 4rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+    }
+
+    .itens {
+      margin: 4rem 0 0 5rem;
+      .item {
+        margin: 0 0 2rem;
+
+        .imagem {
+          width: 3rem;
+          height: 3rem;
+          padding: 0.5rem;
+        }
+
+        .texto {
+          p {
+            font-size: 0.75rem;
+          }
+        }
+      }
+    }
+
+    .hamburgers {
+      img {
+        width: 26%;
+      }
+    }
+  }
+
+  .galeria {
+    .slick-arrow {
+      bottom: 5%;
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+
+  .depoimentos {
+    padding: 6rem;
+
+    .titulo {
+      h1 {
+        font-size: 4rem;
+      }
+
+      h2 {
+        font-size: 2.25rem;
+      }
+    }
+
+    .galeria-dep {
+      .item {
+        min-height: 20rem;
+        padding: 1rem;
+        margin: 5rem 0 0;
+
+        .texto {
+          h1 {
+            font-size: 1.25rem;
+          }
+
+          p {
+            font-size: 0.8rem;
+            margin: 1rem 0 0;
+          }
+        }
+
+        .imagem {
+          left: 24.5%;
+          top: 4%;
+
+          span {
+            font-size: 6rem;
+            margin: 0 5rem 0 0;
+          }
+
+          .img {
+            width: 4rem;
+            margin: -4rem 0 0 0;
+            height: 4rem;
+          }
+        }
+      }
+
+      .slick-arrow {
+        width: 3rem;
+        height: 3rem;
+      }
+    }
+  }
+
+  .ondeestamos {
+    padding: 8rem 8rem 10rem;
+
+    h1 {
+      font-size: 4rem;
+      margin: 0 0 -8rem;
+    }
+  }
+
+  .quemsomos {
+    padding: 2rem;
+
+    img {
+      left: 0%;
+      bottom: 0;
+      width: 25%;
+    }
+
+    .texto {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 0.65rem;
+      }
+
+      a {
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  .footer {
+    font-size: 0.75rem;
+
+    a {
+      font-size: 0.75rem;
+    }
+  }
+
+  .section-obrigado {
+    padding: 4rem;
+    h2 {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+//Responsivo Tablet
+@media (min-width: 768px) and (max-width: 1023px) {
+  //Resolução 800px x 600px
+
+  .banner {
+    padding: 4rem 4rem 6rem;
+    min-height: auto;
+
+    .logo {
+      img {
+        width: 45%;
+      }
+    }
+
+    .chamada {
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.75rem;
+      }
+
+      h3 {
+        font-size: 3rem;
+
+        span.ano {
+          font-size: 1rem;
+        }
+      }
+
+      h4 {
+        font-size: 1rem;
+      }
+
+      span.item {
+        width: 5rem;
+      }
+    }
+
+    .formulario {
+      top: 0;
+      right: 0;
+      width: 100%;
+      position: relative;
+
+      .titulo-form {
+        h1 {
+          font-size: 2.5rem;
+        }
+
+        h2 {
+          font-size: 1rem;
+        }
+      }
+
+      form {
+        .campos {
+          margin: 1rem 0 0;
+          label {
+            font-size: 0.8rem;
+          }
+
+          input,
+          select {
+            height: 2rem;
+            margin-top: 0.25rem;
+          }
+        }
+
+        .bt-section {
+          margin: 1rem 0 0;
+          button {
+            padding: 0.75rem 0;
+            font-size: 0.75rem;
+          }
+        }
+      }
+    }
+
+    // .hamburgers {
+    //   img {
+    //     width: 55%;
+    //     z-index: 8;
+    //     top: initial;
+    //     right: 0;
+    //     bottom: -10%;
+    //     left: -10%;
+    //   }
+    // }
+
+    .hamburgers {
+      img {
+        width: 70%;
+        z-index: 8;
+        top: initial;
+        right: 0;
+        bottom: -20%;
+        left: -16%;
+      }
+    }
+  }
+
+  .cta {
+    text-align: right;
+
+    .justify-content-center {
+      justify-content: right !important;
+    }
+
+    h1 {
+      font-size: 1.45rem;
+
+      .arrows {
+        width: 2.5rem;
+      }
+    }
+  }
+
+  .mercado {
+    padding: 8rem 4rem 4rem;
+
+    .titulo {
+      h1 {
+        font-size: 5rem;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .itens {
+      .item {
+        .pt01 {
+          padding: 1rem;
+          height: 8vh;
+
+          img {
+            width: 80%;
+          }
+        }
+
+        .pt02 {
+          padding: 1.5rem;
+          height: 8vh;
+
+          h1 {
+            font-size: 2rem;
+          }
+        }
+
+        .pt03 {
+          padding: 0.5rem 1rem;
+          height: 8vh;
+
+          p {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  .modelos {
+    padding: 5rem;
+
+    .titulo {
+      h1 {
+        font-size: 6rem;
+      }
+
+      h2 {
+        font-size: 2.25rem;
+      }
+    }
+
+    .item {
+      .imagem {
+        img {
+          width: 105%;
+        }
+
+        span {
+          top: 42%;
+          right: -3%;
+          font-size: 1.5rem;
+        }
+      }
+
+      .texto {
+        padding: 0 1rem;
+
+        h1 {
+          font-size: 1.5rem;
+        }
+
+        h2 {
+          font-size: 1.15rem;
+          margin: 0 0 1rem;
+        }
+
+        p {
+          font-size: 0.75rem;
+          br {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .video {
+    .youtube {
+      min-height: 18rem;
+
+      .play-button {
+        img {
+          width: 6rem;
+          height: 6rem;
+        }
+      }
+    }
+  }
+
+  .vantagens {
+    min-height: auto;
+    padding: 8rem 4rem 2rem;
+
+    .titulo {
+      h1 {
+        font-size: 4rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+    }
+
+    .itens {
+      margin: 4rem 0 0 10rem;
+
+      .item {
+        margin: 0 0 2rem;
+
+        .imagem {
+          width: 3rem;
+          height: 3rem;
+          padding: 0.5rem;
+        }
+
+        .texto {
+          p {
+            font-size: 0.75rem;
+          }
+        }
+      }
+    }
+
+    .hamburgers {
+      img {
+        width: 35%;
+      }
+    }
+  }
+
+  .galeria {
+    .slick-arrow {
+      bottom: 5%;
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+
+  .depoimentos {
+    padding: 6rem;
+
+    .titulo {
+      h1 {
+        font-size: 4rem;
+      }
+
+      h2 {
+        font-size: 2.25rem;
+      }
+    }
+
+    .galeria-dep {
+      .item {
+        min-height: 20rem;
+        padding: 1rem;
+        margin: 5rem 0 0;
+
+        .texto {
+          h1 {
+            font-size: 1.25rem;
+          }
+
+          p {
+            font-size: 0.8rem;
+            margin: 1rem 0 0;
+          }
+        }
+
+        .imagem {
+          left: 24.5%;
+          top: 4%;
+
+          span {
+            font-size: 6rem;
+            margin: 0 5rem 0 0;
+          }
+
+          .img {
+            width: 4rem;
+            margin: -4rem 0 0 0;
+            height: 4rem;
+          }
+        }
+      }
+
+      .slick-arrow {
+        width: 3rem;
+        height: 3rem;
+      }
+    }
+  }
+
+  .ondeestamos {
+    padding: 4rem;
+    min-height: auto;
+
+    h1 {
+      font-size: 4rem;
+      margin: 0 0 -8rem;
+    }
+  }
+
+  .quemsomos {
+    padding: 2rem;
+
+    img {
+      left: 0%;
+      bottom: 0;
+      width: 35%;
+    }
+
+    .texto {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 0.65rem;
+      }
+
+      a {
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  .footer {
+    font-size: 0.75rem;
+
+    a {
+      font-size: 0.75rem;
+    }
+  }
+
+  .section-obrigado {
+    padding: 4rem;
+    h2 {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+//Responsivo Mobile
+@media (min-width: 380px) and (max-width: 767px) {
+  //Resolução 414px x 673px
+  //Resolução 375px x 812px
+
+  .banner {
+    padding: 2rem 2rem 4rem;
+    min-height: auto;
+
+    .logo {
+      img {
+        width: 60%;
+      }
+    }
+
+    .chamada {
+      h1 {
+        font-size: 1.85rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      h3 {
+        font-size: 2.5rem;
+
+        span.ano {
+          font-size: 1.15rem;
+        }
+      }
+
+      span.item {
+        width: 4rem;
+      }
+
+      h4 {
+        font-size: 1.15rem;
+        letter-spacing: 0.75rem;
+      }
+    }
+
+    .formulario {
+      position: relative;
+      width: 100%;
+      right: 0;
+      top: 5%;
+      border-radius: 0.75rem;
+      padding: 1.25rem;
+
+      .titulo-form {
+        h1 {
+          font-size: 3rem;
+        }
+
+        h2 {
+          font-size: 1.25rem;
+        }
+      }
+
+      form {
+        .campos {
+          label {
+            font-size: 0.8rem;
+          }
+
+          input,
+          select {
+            height: 2.25rem;
+            font-size: 0.8rem;
+          }
+        }
+
+        .bt-section {
+          margin: 1rem 0 0;
+
+          button {
+            padding: 0.8rem 0;
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+
+    .hamburgers {
+      display: none;
+
+      img {
+        position: relative;
+        width: 100%;
+        z-index: 20;
+        top: 0;
+        right: 0;
+      }
+    }
+  }
+
+  .cta {
+    padding: 1rem;
+
+    h1 {
+      font-size: 1rem;
+
+      span {
+        padding: 0.25rem 0.75rem;
+      }
+
+      .arrows {
+        display: none;
+      }
+    }
+  }
+
+  .mercado {
+    padding: 6rem 2rem;
+
+    .titulo {
+      h1 {
+        font-size: 4.5rem;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        font-size: 0.75rem;
+
+        br {
+          display: none;
+        }
+      }
+    }
+
+    .itens {
+      margin: 0;
+
+      .item {
+        margin: 3rem 0 0;
+
+        .pt01 {
+          border-radius: 1rem 1rem 0 0;
+          height: auto;
+          padding: 1rem;
+
+          img {
+            width: 20%;
+          }
+        }
+
+        .pt02 {
+          height: auto;
+          padding: 1rem;
+
+          h1 {
+            font-size: 3rem;
+          }
+        }
+
+        .pt03 {
+          padding: 1rem;
+          height: auto;
+
+          p {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+
+  .modelos {
+    padding: 6rem 2rem;
+
+    .titulo {
+      h1 {
+        font-size: 5rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+    }
+
+    .item {
+      .imagem {
+        span {
+          font-size: 2rem;
+          right: 0%;
+        }
+      }
+
+      .texto {
+        padding: 0;
+        text-align: center;
+
+        h1 {
+          font-size: 2rem;
+        }
+
+        h2 {
+          font-size: 1.5rem;
+        }
+
+        p {
+          font-size: 0.75rem;
+
+          br {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .video {
+    .youtube {
+      min-height: 12rem;
+
+      img {
+        width: 150%;
+      }
+
+      .play-button {
+        img {
+          width: 5rem;
+          height: 5rem;
+        }
+      }
+    }
+  }
+
+  .vantagens {
+    padding: 6rem 2rem;
+
+    .titulo {
+      h1 {
+        font-size: 3rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        margin: -0.75rem 0 2rem;
+      }
+    }
+
+    .itens {
+      margin: 2rem 0 0;
+
+      .item {
+        .imagem {
+          width: 5rem;
+          height: 5rem;
+          padding: 0.75rem;
+        }
+
+        .texto {
+          width: 100%;
+          margin: 1rem 0 0;
+
+          p {
+            font-size: 0.9rem;
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .hamburgers {
+      display: none;
+    }
+  }
+
+  .galeria {
+    .slick-arrow {
+      width: 2.5rem;
+      height: 2.5rem;
+      bottom: 10%;
+    }
+
+    .next-arrow {
+      left: 52%;
+    }
+
+    .prev-arrow {
+      left: 40%;
+    }
+  }
+
+  .depoimentos {
+    padding: 6rem 2rem 2rem;
+
+    .titulo {
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      h2 {
+        font-size: 1.25rem;
+        margin: -0.75rem 0 2rem;
+      }
+    }
+
+    .galeria-dep {
+      .item {
+        min-height: auto;
+        padding: 1rem;
+        margin: 2rem 0 0;
+
+        .texto {
+          margin: 3rem 0 0;
+
+          h1 {
+            font-size: 1rem;
+          }
+
+          p {
+            font-size: 0.75rem;
+            text-align: justify;
+          }
+        }
+
+        .imagem {
+          left: 16.5%;
+          top: 1%;
+
+          span {
+            font-size: 5rem;
+            margin: 0 2rem 0 0;
+          }
+
+          .img {
+            width: 3rem;
+            height: 3rem;
+            margin: -3rem 0 0 0;
+          }
+        }
+      }
+
+      .slick-arrow {
+        bottom: 40%;
+        padding: 0.75rem;
+        width: 3rem;
+        height: 3rem;
+      }
+
+      .next-arrow {
+        right: -12%;
+      }
+
+      .prev-arrow {
+        left: -12%;
+      }
+    }
+  }
+
+  .ondeestamos {
+    padding: 2rem;
+    min-height: auto;
+
+    h1 {
+      margin: 0 0 -5rem;
+      font-size: 3rem;
+    }
+  }
+
+  .quemsomos {
+    padding: 2rem 2rem 4rem;
+
+    .texto {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 0.75rem;
+      }
+
+      a {
+        font-size: 0.8rem;
+      }
+    }
+
+    img {
+      display: none;
+    }
+  }
+
+  .footer {
+    font-size: 0.6rem;
+
+    a {
+      font-size: 0.6rem;
+    }
+  }
+
+  .section-obrigado {
+    padding: 2rem;
+
+    .logo {
+      img {
+        width: 50%;
+      }
+    }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      font-size: 0.8rem;
+    }
+
+    .btn-whatsapp {
+      padding: 0.8rem 1rem;
+    }
+  }
+}
+
+@media (max-width: 379px) {
+  //Resolução 360px x 640px
+  //Resolução 320px x 568px
+
+  .banner {
+    padding: 2rem 2rem 4rem;
+    min-height: auto;
+
+    .logo {
+      img {
+        width: 60%;
+      }
+    }
+
+    .chamada {
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      h2 {
+        font-size: 1.25rem;
+      }
+
+      h3 {
+        font-size: 2.5rem;
+
+        span.ano {
+          font-size: 1.15rem;
+        }
+      }
+
+      span.item {
+        width: 4rem;
+      }
+
+      h4 {
+        font-size: 1.15rem;
+        letter-spacing: 0.75rem;
+      }
+    }
+
+    .formulario {
+      position: relative;
+      width: 100%;
+      right: 0;
+      top: 5%;
+      border-radius: 0.75rem;
+      padding: 1.25rem;
+
+      .titulo-form {
+        h1 {
+          font-size: 3rem;
+        }
+
+        h2 {
+          font-size: 1.25rem;
+        }
+      }
+
+      form {
+        .campos {
+          label {
+            font-size: 0.8rem;
+          }
+
+          input,
+          select {
+            height: 2.25rem;
+            font-size: 0.8rem;
+          }
+        }
+
+        .bt-section {
+          margin: 1rem 0 0;
+
+          button {
+            padding: 0.8rem 0;
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+
+    .hamburgers {
+      display: none;
+
+      img {
+        position: relative;
+        width: 100%;
+        z-index: 20;
+        top: 0;
+        right: 0;
+      }
+    }
+  }
+
+  .cta {
+    padding: 1rem;
+
+    h1 {
+      font-size: 1rem;
+
+      span {
+        padding: 0.25rem 0.75rem;
+      }
+
+      .arrows {
+        display: none;
+      }
+    }
+  }
+
+  .mercado {
+    padding: 6rem 2rem;
+
+    .titulo {
+      h1 {
+        font-size: 4.5rem;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        font-size: 0.75rem;
+
+        br {
+          display: none;
+        }
+      }
+    }
+
+    .itens {
+      margin: 0;
+
+      .item {
+        margin: 3rem 0 0;
+
+        .pt01 {
+          border-radius: 1rem 1rem 0 0;
+          height: auto;
+          padding: 1rem;
+
+          img {
+            width: 20%;
+          }
+        }
+
+        .pt02 {
+          height: auto;
+          padding: 1rem;
+
+          h1 {
+            font-size: 3rem;
+          }
+        }
+
+        .pt03 {
+          padding: 1rem;
+          height: auto;
+
+          p {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+
+  .modelos {
+    padding: 6rem 2rem;
+
+    .titulo {
+      h1 {
+        font-size: 5rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+    }
+
+    .item {
+      .imagem {
+        span {
+          font-size: 2rem;
+          right: 0%;
+        }
+      }
+
+      .texto {
+        padding: 0;
+        text-align: center;
+
+        h1 {
+          font-size: 2rem;
+        }
+
+        h2 {
+          font-size: 1.5rem;
+        }
+
+        p {
+          font-size: 0.75rem;
+
+          br {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .video {
+    .youtube {
+      min-height: 12rem;
+
+      img {
+        width: 150%;
+      }
+
+      .play-button {
+        img {
+          width: 5rem;
+          height: 5rem;
+        }
+      }
+    }
+  }
+
+  .vantagens {
+    padding: 6rem 2rem;
+
+    .titulo {
+      h1 {
+        font-size: 3rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        margin: -0.75rem 0 2rem;
+      }
+    }
+
+    .itens {
+      margin: 2rem 0 0;
+
+      .item {
+        .imagem {
+          width: 5rem;
+          height: 5rem;
+          padding: 0.75rem;
+        }
+
+        .texto {
+          width: 100%;
+          margin: 1rem 0 0;
+
+          p {
+            font-size: 0.9rem;
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .hamburgers {
+      display: none;
+    }
+  }
+
+  .galeria {
+    .slick-arrow {
+      width: 2.5rem;
+      height: 2.5rem;
+      bottom: 10%;
+    }
+
+    .next-arrow {
+      left: 52%;
+    }
+
+    .prev-arrow {
+      left: 40%;
+    }
+  }
+
+  .depoimentos {
+    padding: 6rem 2rem 2rem;
+
+    .titulo {
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      h2 {
+        font-size: 1.25rem;
+        margin: -0.75rem 0 2rem;
+      }
+    }
+
+    .galeria-dep {
+      .item {
+        min-height: auto;
+        padding: 1rem;
+        margin: 2rem 0 0;
+
+        .texto {
+          margin: 3rem 0 0;
+
+          h1 {
+            font-size: 1rem;
+          }
+
+          p {
+            font-size: 0.75rem;
+            text-align: justify;
+          }
+        }
+
+        .imagem {
+          left: 16.5%;
+          top: 1%;
+
+          span {
+            font-size: 5rem;
+            margin: 0 2rem 0 0;
+          }
+
+          .img {
+            width: 3rem;
+            height: 3rem;
+            margin: -3rem 0 0 0;
+          }
+        }
+      }
+
+      .slick-arrow {
+        bottom: 40%;
+        padding: 0.75rem;
+        width: 3rem;
+        height: 3rem;
+      }
+
+      .next-arrow {
+        right: -12%;
+      }
+
+      .prev-arrow {
+        left: -12%;
+      }
+    }
+  }
+
+  .ondeestamos {
+    padding: 2rem;
+    min-height: auto;
+
+    h1 {
+      margin: 0 0 -5rem;
+      font-size: 3rem;
+    }
+  }
+
+  .quemsomos {
+    padding: 2rem 2rem 4rem;
+
+    .texto {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 0.75rem;
+      }
+
+      a {
+        font-size: 0.8rem;
+      }
+    }
+
+    img {
+      display: none;
+    }
+  }
+
+  .footer {
+    font-size: 0.6rem;
+
+    a {
+      font-size: 0.6rem;
+    }
+  }
+
+  .section-obrigado {
+    padding: 2rem;
+
+    .logo {
+      img {
+        width: 50%;
+      }
+    }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      font-size: 0.8rem;
+    }
+
+    .btn-whatsapp {
+      padding: 0.8rem 1rem;
+    }
+  }
+}
