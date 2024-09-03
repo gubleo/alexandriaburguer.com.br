@@ -1348,6 +1348,11 @@
   .vantagens .hamburgers {
     display: none;
   }
+
+  .galeria .imagem {
+    width: 100%;
+  }
+
   .galeria .slick-arrow {
     width: 2.5rem;
     height: 2.5rem;
@@ -1419,10 +1424,13 @@
   }
   .quemsomos {
     padding: 2rem 2rem 4rem;
+    height: 1030px;
   }
   .quemsomos .texto h1 {
     font-size: 2rem;
   }
+
+
   .quemsomos .texto p {
     font-size: 0.75rem;
   }
@@ -1430,7 +1438,10 @@
     font-size: 0.8rem;
   }
   .quemsomos img {
-    display: none;
+    display: block;
+    width: 100%;
+    margin-top: 530px;
+    margin-bottom: 30px
   }
   .footer {
     font-size: 0.6rem;

@@ -747,7 +747,12 @@ body {
       font-family: $fontGobold;
       color: $colorWhite;
     }
+
+    p{
+      color: red;
+    }
   }
+
 
   img {
     width: 100%;
