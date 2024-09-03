@@ -812,8 +812,7 @@
     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
         <h1>onde<br><span>estamos</span>
         <br>
-            <p>Já somos mais de 30 unidades e seguimos em plena expansão, com um negócio inovador e altamente lucrativo.</p>
-
+            <p style="font-size: 22px">J somos mais de 30 unidades e seguimos em plena expansão, com um negócio inovador e altamente lucrativo.</p>
         </h1>
         <div class="d-flex justify-content-center">
             <img src="img/mapa.png" alt=""/>
