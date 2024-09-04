@@ -26,7 +26,7 @@ body {
 .banner .logo {
   margin: 0 0 2%;
   display: block;
-  text-align: center;
+  text-align: left;
 }
 .banner .logo img {
   width: 25%;
@@ -38,10 +38,16 @@ body {
   top: 28%;
   right: 0%;
 }
-.banner .chamada {
-  text-align: center;
-  position: relative;
-  z-index: 10;
+@media (max-width: 768px) {
+  .banner .chamada {
+    text-align: center;
+  }
+
+  .banner .logo {
+    margin: 0 0 2%;
+    display: block;
+    text-align: center;
+  }
 }
 .banner .chamada h1 {
   font-family: "Gobold";

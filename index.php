@@ -254,6 +254,7 @@
     </div>
 </section>
 
+
 <section class="cta orange">
     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 d-flex justify-content-center">
         <div>
@@ -263,6 +264,35 @@
         </div>
     </div>
 </section>
+
+
+<div class="galeria">
+    <div class="imagem">
+        <img src="img/blumenau_1.jpg" alt=""/>
+    </div>
+    <div class="imagem">
+        <img src="img/santafelicidade-1.jpg" alt=""/>
+    </div>
+    <div class="imagem">
+        <img src="img/altoboq-1.jpg" alt=""/>
+    </div>
+    <div class="imagem">
+        <img src="img/pinhais-1.jpg" alt=""/>
+    </div>
+    <div class="imagem">
+        <img src="img/blumenau_2.jpg" alt=""/>
+    </div>
+    <div class="imagem">
+        <img src="img/santafelicidade-2.jpg" alt=""/>
+    </div>
+    <div class="imagem">
+        <img src="img/altoboq-2.jpg" alt=""/>
+    </div>
+    <div class="imagem">
+        <img src="img/pinhais-2.jpg" alt=""/>
+    </div>
+</div>
+
 
 <section class="mercado">
     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
@@ -654,34 +684,6 @@
         </div>
     </div>
 </section>
-
-
-<div class="galeria">
-    <div class="imagem">
-        <img src="img/blumenau_1.jpg" alt=""/>
-    </div>
-    <div class="imagem">
-        <img src="img/santafelicidade-1.jpg" alt=""/>
-    </div>
-    <div class="imagem">
-        <img src="img/altoboq-1.jpg" alt=""/>
-    </div>
-    <div class="imagem">
-        <img src="img/pinhais-1.jpg" alt=""/>
-    </div>
-    <div class="imagem">
-        <img src="img/blumenau_2.jpg" alt=""/>
-    </div>
-    <div class="imagem">
-        <img src="img/santafelicidade-2.jpg" alt=""/>
-    </div>
-    <div class="imagem">
-        <img src="img/altoboq-2.jpg" alt=""/>
-    </div>
-    <div class="imagem">
-        <img src="img/pinhais-2.jpg" alt=""/>
-    </div>
-</div>
 
 <section class="depoimentos">
     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">

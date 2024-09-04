@@ -7,6 +7,7 @@
   .barra-fixa {
     display: block;
   }
+
 }
 @media (min-width: 1921px) {
   .banner .hamburgers img {
@@ -41,6 +42,9 @@
   .banner {
     padding: 5rem;
   }
+
+}
+
   .banner .chamada h1 {
     font-size: 4rem;
   }
@@ -244,7 +248,10 @@
     padding: 5rem;
     overflow: hidden;
   }
-  .banner .chamada h1 {
+  .banner .chamada {
+    text-align: center;
+  }
+    .banner .chamada h1 {
     font-size: 4rem;
   }
   .banner .chamada h2 {
@@ -457,6 +464,11 @@
   .banner {
     padding: 5rem;
   }
+
+  .banner .chamada {
+    text-align: center;
+  }
+
   .banner .chamada h1 {
     font-size: 3rem;
   }
