@@ -44,10 +44,10 @@
     <link rel="stylesheet" type="text/css" href="css/app.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <meta name="google-site-verification" content="FPRzMK6TkZHdzx4904e5z6hQe94IPw39-0wgyW7MX70"/>
+
 </head>
 
 <body>
-
 
 <!-- Google Tag Manager, BL COMPANY (noscript) -->
 <noscript>
@@ -128,41 +128,6 @@
                                 <input type="text" class="form-control" id="CIDADE" name="CIDADE" required>
                             </div>
 
-
-<!--                            <div class="col-sm-6">-->
-<!--                                <label for="ESTADO" class="form-label">Estado:</label>-->
-<!--                                <select class="form-control" id="ESTADO" name="ESTADO" required>-->
-<!--                                    <option value="" selected disabled hidden>Selecione um estado</option>-->
-<!--                                    <option value="Acre">AC</option>-->
-<!--                                    <option value="Alagoas">AL</option>-->
-<!--                                    <option value="Amapá">AP</option>-->
-<!--                                    <option value="Amazonas">AM</option>-->
-<!--                                    <option value="Bahia">BA</option>-->
-<!--                                    <option value="Ceará">CE</option>-->
-<!--                                    <option value="Distrito Federal">DF</option>-->
-<!--                                    <option value="Espírito Santo">ES</option>-->
-<!--                                    <option value="Goiás">GO</option>-->
-<!--                                    <option value="Maranhão">MA</option>-->
-<!--                                    <option value="Mato Grosso">MT</option>-->
-<!--                                    <option value="Mato Grosso do Sul">MS</option>-->
-<!--                                    <option value="Minas Gerais">MG</option>-->
-<!--                                    <option value="Pará">PA</option>-->
-<!--                                    <option value="Paraíba">PB</option>-->
-<!--                                    <option value="Paraná">PR</option>-->
-<!--                                    <option value="Pernambuco">PE</option>-->
-<!--                                    <option value="Piauí">PI</option>-->
-<!--                                    <option value="Rio de Janeiro">RJ</option>-->
-<!--                                    <option value="Rio Grande do Norte">RN</option>-->
-<!--                                    <option value="Rio Grande do Sul">RS</option>-->
-<!--                                    <option value="Rondônia">RO</option>-->
-<!--                                    <option value="Roraima">RR</option>-->
-<!--                                    <option value="Santa Catarina">SC</option>-->
-<!--                                    <option value="São Paulo">SP</option>-->
-<!--                                    <option value="Sergipe">SE</option>-->
-<!--                                    <option value="Tocantins">TO</option>-->
-<!--                                    <option value="Estrangeiro">EX</option>-->
-<!--                                </select>-->
-<!--                            </div>-->
                         </div>
 
                         <div class="col-12 mt-2">
@@ -254,7 +219,6 @@
     </div>
 </section>
 
-
 <section class="cta orange">
     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 d-flex justify-content-center">
         <div>
@@ -264,7 +228,6 @@
         </div>
     </div>
 </section>
-
 
 <div class="galeria">
     <div class="imagem">
@@ -292,7 +255,6 @@
         <img src="img/pinhais-2.jpg" alt=""/>
     </div>
 </div>
-
 
 <section class="mercado">
     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
@@ -406,43 +368,19 @@
         <div class="itens">
             <div class="row">
 
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <div class="item">
                         <div class="row">
                             <div
                                     class="col-lg-3 col-md-3 col-sm-3 col-xs-12 d-flex align-items-center justify-content-center">
                                 <div class="imagem">
-                                    <img src="icones/arquiteto.svg" alt=""/>
+                                    <img src="icones/processo-de-trabalho.svg" alt=""/>
                                 </div>
                             </div>
                             <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 d-flex align-items-center">
                                 <div class="texto">
                                     <p>
-                                        Acompanhamento<br/>
-                                        exclusivo na montagem<br/>
-                                        da unidade
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <div class="item">
-                        <div class="row">
-                            <div
-                                    class="col-lg-3 col-md-3 col-sm-3 col-xs-12 d-flex align-items-center justify-content-center">
-                                <div class="imagem">
-                                    <img src="icones/pin-de-localizacao.svg" alt=""/>
-                                </div>
-                            </div>
-                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 d-flex align-items-center">
-                                <div class="texto">
-                                    <p>
-                                        Análise e auxílio na<br/>
-                                        escolha do ponto<br/>
-                                        comercial
+                                        Modelo de negócio pioneiro, <br>inovador e altamente lucrativo
                                     </p>
                                 </div>
                             </div>
@@ -478,35 +416,14 @@
                             <div
                                     class="col-lg-3 col-md-3 col-sm-3 col-xs-12 d-flex align-items-center justify-content-center">
                                 <div class="imagem">
-                                    <img src="icones/processo-de-trabalho.svg" alt=""/>
-                                </div>
-                            </div>
-                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 d-flex align-items-center">
-                                <div class="texto">
-                                    <p>
-                                        Modelo de negócio pioneiro, <br>inovador e altamente lucrativo
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <div class="item">
-                        <div class="row">
-                            <div
-                                    class="col-lg-3 col-md-3 col-sm-3 col-xs-12 d-flex align-items-center justify-content-center">
-                                <div class="imagem">
                                     <img src="icones/propaganda.svg" alt=""/>
                                 </div>
                             </div>
                             <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 d-flex align-items-center">
                                 <div class="texto">
                                     <p>
-                                        Fundo de propaganda<br/>
-                                        revertido exclusivamente<br/>
-                                        para o franqueado
+                                        Franquia de fácil<br>
+                                        implementação e gestão
                                     </p>
                                 </div>
                             </div>
@@ -577,50 +494,6 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <div class="item">
-                        <div class="row">
-                            <div
-                                    class="col-lg-3 col-md-3 col-sm-3 col-xs-12 d-flex align-items-center justify-content-center">
-                                <div class="imagem">
-                                    <img src="icones/retorno-do-investimento.svg" alt=""/>
-                                </div>
-                            </div>
-                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 d-flex align-items-center">
-                                <div class="texto">
-                                    <p>
-                                        Baixo investimento<br/>
-                                        com alta<br/>
-                                        lucratividade
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <div class="item">
-                        <div class="row">
-                            <div
-                                    class="col-lg-3 col-md-3 col-sm-3 col-xs-12 d-flex align-items-center justify-content-center">
-                                <div class="imagem">
-                                    <img src="icones/franquia.svg" alt=""/>
-                                </div>
-                            </div>
-                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 d-flex align-items-center">
-                                <div class="texto">
-                                    <p>
-                                        Possibilidade de<br/>
-                                        se tornar um<br/>
-                                        multifranqueado
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
 
@@ -629,7 +502,6 @@
         </div>
     </div>
 </section>
-
 
 <section class="modelos">
     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
@@ -685,6 +557,132 @@
     </div>
 </section>
 
+<section class="vantagens">
+    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+        <div class="titulo">
+            <h1>Suporte Completo</h1>
+            <h2>Suporte Completo</h2>
+            <p style="color: white;">
+            Oferecemos todo suporte necessário para o sucesso da sua operação
+            </p>
+        </div>
+
+        <div class="itens">
+            <div class="row">
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="item">
+							<div class="row">
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 d-flex align-items-center justify-content-center">
+									<div class="imagem">
+										<img src="icones/arquiteto.svg" alt="">
+									</div>
+								</div>
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 d-flex align-items-center">
+									<div class="texto">
+										<p>
+											Acompanhamento<br>
+											exclusivo na montagem<br>
+											da unidade
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="item">
+							<div class="row">
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 d-flex align-items-center justify-content-center">
+									<div class="imagem">
+										<img src="icones/pin-de-localizacao.svg" alt="">
+									</div>
+								</div>
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 d-flex align-items-center">
+									<div class="texto">
+										<p>
+											Análise e auxílio na<br>
+											escolha do ponto<br>
+											comercial
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <div class="row">
+                            <div
+                                    class="col-lg-3 col-md-3 col-sm-3 col-xs-12 d-flex align-items-center justify-content-center">
+                                <div class="imagem">
+                                    <img src="icones/propaganda.svg" alt=""/>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 d-flex align-items-center">
+                                <div class="texto">
+                                    <p>
+                                        Fundo de propaganda<br/>
+                                        revertido exclusivamente<br/>
+                                        para o franqueado
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <div class="row">
+                            <div
+                                    class="col-lg-3 col-md-3 col-sm-3 col-xs-12 d-flex align-items-center justify-content-center">
+                                <div class="imagem">
+                                    <img src="icones/aprovado.svg" alt=""/>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 d-flex align-items-center">
+                                <div class="texto">
+                                    <p>
+                                        Treinamento completo<br>
+                                        para equipe
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <div class="row">
+                            <div
+                                    class="col-lg-3 col-md-3 col-sm-3 col-xs-12 d-flex align-items-center justify-content-center">
+                                <div class="imagem">
+                                    <img src="icones/franquia.svg" alt=""/>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 d-flex align-items-center">
+                                <div class="texto">
+                                    <p>
+                                       Suporte para Gestão
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
 <section class="depoimentos">
     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
         <div class="titulo">
@@ -699,7 +697,7 @@
             <div class="item">
                 <div class="imagem">
                     <span>"</span>
-                    <div class="img"></div>
+<!--                    <div class="img"></div>-->
                 </div>
 
                 <div class="texto">
@@ -723,7 +721,7 @@
             <div class="item">
                 <div class="imagem">
                     <span>"</span>
-                    <div class="img"></div>
+<!--                    <div class="img"></div>-->
                 </div>
 
                 <div class="texto">
@@ -740,7 +738,7 @@
             <div class="item">
                 <div class="imagem">
                     <span>"</span>
-                    <div class="img"></div>
+<!--                    <div class="img"></div>-->
                 </div>
 
                 <div class="texto">
@@ -757,7 +755,7 @@
             <div class="item">
                 <div class="imagem">
                     <span>"</span>
-                    <div class="img"></div>
+<!--                    <div class="img"></div>-->
                 </div>
 
                 <div class="texto">
@@ -777,7 +775,7 @@
             <div class="item">
                 <div class="imagem">
                     <span>"</span>
-                    <div class="img"></div>
+<!--                    <div class="img"></div>-->
                 </div>
 
                 <div class="texto">
@@ -821,7 +819,6 @@
         </div>
     </div>
 </section>
-
 
 <section class="quemsomos">
     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
@@ -869,7 +866,6 @@
     </div>
 
 </section>
-
 
 <section class="barra-fixa">
     <div class="row">

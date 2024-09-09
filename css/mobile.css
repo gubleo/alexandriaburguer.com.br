@@ -160,6 +160,10 @@
   .vantagens .titulo h2 {
     font-size: 2.5rem;
   }
+  .vantagens .titulo p {
+    font-size: 12px;
+    color: #ffffff;
+  }
   .vantagens .itens {
     margin: 4rem 0 0 5rem;
   }
