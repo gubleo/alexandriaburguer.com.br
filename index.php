@@ -135,11 +135,11 @@
                                 mil:</label>
                             <select class="form-control" id="CAPITAL" name="CAPITAL" required>
                                 <option value="" selected disabled hidden>Capital de investimento</option>
-                                <option value="De R$249 mil a R$300 mil">Tenho de R$249 mil a R$300 mil para investir
+                                <option value="De R$249 mil a R$300 mil">Tenho de R$350 mil a R$450 mil para investir
                                 </option>
-                                <option value="De R$300 mil a R$350 mil">Tenho de R$300 mil a R$350 mil para investir
+                                <option value="De R$300 mil a R$350 mil">Tenho de R$450 mil a R$600 mil para investir
                                 </option>
-                                <option value="De R$350 mil a R$450 mil">Tenho acima de R$350 mil para investir</option>
+                                <option value="De R$350 mil a R$450 mil">Tenho acima de R$600 mil para investir</option>
                             </select>
                         </div>
 
@@ -262,9 +262,10 @@
             <h1>O mercado</h1>
             <h2>O mercado</h2>
             <p>
-                O mercado de alimentação cresce cerca de 10% todos os anos.<br/>
-                Se compararmos com o crescimento do PIB, a alimentação<br/>
-                cresce 3 e até 4 vezes mais.
+                O mercado de alimentação cresce 10% todos os anos.<br>
+                Se compararmos com o crescimento do PIB, <br>
+                a alimentação cresce até 4 vezes mais.
+
             </p>
         </div>
 
@@ -273,7 +274,7 @@
                 <div class="row">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
                         <div class="pt01">
-                            <img src="icones/cifrao.svg" alt=""/>
+                            <img src="icones/burger.svg" alt=""/>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
@@ -284,8 +285,7 @@
                     <div class="col-lg-7 col-md-7 col-sm-8 col-xs-12">
                         <div class="pt03">
                             <p>
-                                O faturamento de franchising atingiu R$163,319 bilhões em 2017. Tornando o Brasil um
-                                dos líderes mundiais em franchising.
+                                Hamburguerias representam mais de 50% do faturamento das redes de fast food no Brasil.
                             </p>
                         </div>
                     </div>
@@ -307,8 +307,7 @@
                     <div class="col-lg-7 col-md-7 col-sm-8 col-xs-12">
                         <div class="pt03">
                             <p>
-                                O segmento de Alimentação cresce cerca de 10% todos os anos. Se compararmos ao PIB,
-                                cresce 3 e até 4 vezes mais.
+                                Desde 2020, a alimentação fora de casa cresceu mais de 53% e as hamburguerias representam a maior parte desse faturamento.
                             </p>
                         </div>
                     </div>
@@ -319,7 +318,7 @@
                 <div class="row">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
                         <div class="pt01">
-                            <img src="icones/burger.svg" alt=""/>
+                            <img src="icones/cifrao.svg" alt=""/>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
@@ -330,8 +329,7 @@
                     <div class="col-lg-7 col-md-7 col-sm-8 col-xs-12">
                         <div class="pt03">
                             <p>
-                                Hamburguerias representam pouco mais de 50% do faturamento das redes de fast-food –
-                                estimado em mais de R$ 22 bilhões em 2014.
+                                O faturamento de franchising atingiu R$163,319 bilhões em 2017. Tornando o Brasil um dos líderes mundiais em franchising.
                             </p>
                         </div>
                     </div>
@@ -526,7 +524,7 @@
                         <p>Indicação de cidades até 100k habitantes</p>
                         <p>Faturamento: 1,4 a 2,4 milhões ano (120 a 200 mil/ mês)</p>
                         <p>Lojas: até 180m2ª - em torno de 80 lugares</p>
-                        <p>A partir R$ 249 mil reais.</p>
+                        <p>A partir R$ 349 mil reais.</p>
                     </div>
                 </div>
             </div>
@@ -549,7 +547,7 @@
                         <p>Indicação de cidades acima 150k habitantes</p>
                         <p>Faturamento: 2,4 a 5,2 milhões ano (200 a 440 mil/ mês)</p>
                         <p>Lojas: acima 250m2ª - entre 100 a 160 lugares</p>
-                        <p>A partir de R$ 349 mil reais.</p>
+                        <p>A partir de R$ 499 mil reais.</p>
                     </div>
                 </div>
             </div>
@@ -812,7 +810,7 @@
     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
         <h1>onde<br><span>estamos</span>
         <br>
-            <p style="font-size: 22px">J somos mais de 30 unidades e seguimos em plena expansão, com um negócio inovador e altamente lucrativo.</p>
+            <p style="font-size: 22px">Já somos mais de 30 unidades e seguimos em plena expansão, com um negócio inovador e altamente lucrativo.</p>
         </h1>
         <div class="d-flex justify-content-center">
             <img src="img/mapa.png" alt=""/>
@@ -833,26 +831,7 @@
                         <h1>quem somos</h1>
 
                         <p>
-                            A AlexandriA é um projeto que iniciou como um adicional a Barbearia do idealizador da
-                            marca, Alex Remualdo. Em pouco tempo o negócio que foi pensado para agregar valor ao
-                            objetivo principal, no caso a barbearia, acabou tomando proporções inimagináveis. Sua
-                            ideia deu tão certo que as pessoas vinham de cidades distantes para experimentar o tão
-                            famoso rodízio de mini Smash Burger da AlexandriA.
-                        </p>
-
-                        <p>
-                            Então, em conversa informal com seu atual Sócio, Carlos Eduardo, que já dominava o
-                            mercado de franquia, também no ramo alimentício, a ideia de transformar em franquia a
-                            AlexandriA Burger foi amadurecendo. Em um período muito curto de tempo, a formatação
-                            aconteceu e no primeiro mês a venda de 3 unidades já mostrou como o negócio é inovador e
-                            atrativo. No segundo mês, o fechamento de mais 2 unidades vem acelerando
-                            exponencialmente o crescimento e fazendo a marca presente em 2 estados, Santa Catarina e
-                            Paraná.
-                        </p>
-
-                        <p>
-                            O crescimento não para de acontecer e acreditamos que logo estaremos presentes em todo o
-                            país. Venha você também fazer parte deste sucesso, levando a AlexandriA para sua cidade!
+                            AlexandriA Burger começou como um negócio complementar, mas rapidamente se tornou um sucesso independente, atraindo clientes de cidades distantes para experimentar nosso famoso rodízio de mini Smash Burgers. A parceria com Carlos Eduardo, especialista no mercado de franquias, impulsionou o crescimento da marca, que em poucos meses de atuação já realizou a abertura de 5 novas unidades e expandiu para dois estados, Santa Catarina e Paraná. Com um modelo de negócio inovador e de rápido crescimento, a AlexandriA está em plena expansão e convida você a fazer parte desse sucesso, trazendo a franquia para sua cidade.
                         </p>
 
                         <div class="d-flex justify-content-center">
