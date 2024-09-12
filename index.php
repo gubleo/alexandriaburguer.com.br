@@ -131,15 +131,15 @@
                         </div>
 
                         <div class="col-12 mt-2">
-                            <label for="CAPITAL" class="form-label">O Capital de Investimento é a partir de R$249
+                            <label for="CAPITAL" class="form-label">O Capital de Investimento é a partir de R$349
                                 mil:</label>
                             <select class="form-control" id="CAPITAL" name="CAPITAL" required>
                                 <option value="" selected disabled hidden>Capital de investimento</option>
-                                <option value="De R$249 mil a R$300 mil">Tenho de R$350 mil a R$450 mil para investir
+                                <option value="De R$350 mil a R$450 mil">Tenho de R$350 mil a R$450 mil para investir
                                 </option>
-                                <option value="De R$300 mil a R$350 mil">Tenho de R$450 mil a R$600 mil para investir
+                                <option value="De R$450 mil a R$600 mil">Tenho de R$450 mil a R$600 mil para investir
                                 </option>
-                                <option value="De R$350 mil a R$450 mil">Tenho acima de R$600 mil para investir</option>
+                                <option value="De R$600 mil a R$600 mil">Tenho acima de R$600 mil para investir</option>
                             </select>
                         </div>
 
