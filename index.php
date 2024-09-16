@@ -348,15 +348,7 @@
     </div>
 </section>
 
-<section class="cta white">
-    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 d-flex justify-content-center">
-        <div>
-            <h1>Quero ser agora um franqueado</span><img class="arrows" src="img/next-arrow.png" alt=""/></h1>
-        </div>
-    </div>
-</section>
-
-<section class="vantagens">
+<section style="margin-top: -15px" class="vantagens">
     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
         <div class="titulo">
             <h1>Diferenciais</h1>
@@ -497,6 +489,16 @@
 
         <div class="hamburgers">
             <img src="img/hamburgers-vantagens.png" alt=""/>
+        </div>
+    </div>
+</section>
+
+<section class="cta white">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+        <div>
+            <center>
+                <h1>Quero ser agora um franqueado</span><img class="arrows" src="img/next-arrow.png" alt=""/></h1>
+            </center>
         </div>
     </div>
 </section>

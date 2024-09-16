@@ -167,6 +167,8 @@
   .vantagens .itens {
     margin: 4rem 0 0 5rem;
   }
+
+
   .vantagens .itens .item {
     margin: 0 0 2rem;
   }
@@ -179,7 +181,7 @@
     font-size: 0.9rem;
   }
   .vantagens .hamburgers img {
-    width: 23%;
+    width: 15%;
   }
   .depoimentos {
     padding: 8rem;
