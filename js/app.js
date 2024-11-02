@@ -1,5 +1,6 @@
 jQuery(document).ready(function ($) {
     // CÓDIGO PARA ATIVAR BARRA FIXA APÓS O FORM
+
     setTimeout(function () {
 
         var tela = window.innerWidth;
@@ -125,7 +126,7 @@ jQuery(document).ready(function ($) {
 jQuery(document).ready(function ($) {
 
     $("#form").submit(function () {
-        $('.btn-form').prop('disabled', true);
+        // $('.btn-form').prop('disabled', true);
     });
 
     $("#TELEFONE").on({
@@ -299,6 +300,6 @@ jQuery(document).ready(function ($) {
 */
 
 // ALTERA ANO AUTOMÁTICO
-const ano = document.getElementById("ano");
-const anoAtual = new Date();
-ano.innerHTML = anoAtual.getFullYear();
+// const ano = document.getElementById("ano");
+// const anoAtual = new Date();
+// ano.innerHTML = anoAtual.getFullYear();

@@ -83,7 +83,7 @@
 						<h2>de sucesso!</h2>
 					</div>
 
-					<form id="form" name="formulario" class="form" action="form/send-form.php" method="post">
+					<form id="form" name="formulario" class="form" action="form/send_email.php" method="post">
 						<div class="campos">
 							<input type="hidden" class="utmmedium" name="utmmedium" value="">
 							<input type="hidden" class="utmcampaign" name="utmcampaign" value="">

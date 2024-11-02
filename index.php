@@ -85,18 +85,7 @@
                     <h2>de sucesso!</h2>
                 </div>
 
-                <!--
-                Código de implantação:
-                AKfycbykgR7aFBS-pF0RWocoXNYs3VZqH5UVXS5aHtwkOFCLpbmJs7EcwPy9E0UH7c_KZWtRNw
-
-                URL:
-                https://script.google.com/macros/s/AKfycbykgR7aFBS-pF0RWocoXNYs3VZqH5UVXS5aHtwkOFCLpbmJs7EcwPy9E0UH7c_KZWtRNw/exec
-
-                WEBHOOK-MAKE:
-                https://hook.us1.make.com/pix75pqnznthnx9ktwtsxe181vpmjqo9
-                -->
-
-                <form id="form" name="formulario" class="form" action="" method="post">
+                <form id="contact-form" action="send_email.php" method="POST">
                     <div class="campos">
                         <input type="hidden" class="data" name="DATA"
                                value="<?php echo date('d/m/y'); ?> às <?php echo date('H:i'); ?>"/>
@@ -142,73 +131,6 @@
                                 <option value="De R$600 mil a R$600 mil">Tenho acima de R$600 mil para investir</option>
                             </select>
                         </div>
-
-
-                        <!-- <div class="">
-                            <label for="NOME" class="form-label">Nome:</label>
-                            <input type="text" class="form-control" id="NOME" name="NOME" required>
-                        </div>
-
-                        <div class="mt-3">
-                            <label for="EMAIL" class="form-label">E-mail:</label>
-                            <input type="email" class="form-control" id="EMAIL" name="EMAIL" required>
-                        </div>
-
-                        <div class="mt-3">
-                            <label for="TELEFONE" class="form-label">Telefone:</label>
-                            <input type="text" class="form-control" id="TELEFONE" name="TELEFONE" required maxlength="15">
-                        </div>
-
-                        <div class="mt-3">
-                            <label for="CIDADE" class="form-label">Cidade:</label>
-                            <input type="text" class="form-control" id="CIDADE" name="CIDADE" required>
-                        </div>
-
-                        <div class="mt-3">
-                            <label for="ESTADO" class="form-label">Estado:</label>
-                            <select class="form-control" id="ESTADO" name="ESTADO" required>
-                                <option value="" selected disabled hidden>Selecione um estado</option>
-                                <option value="Acre">AC</option>
-                                <option value="Alagoas">AL</option>
-                                <option value="Amapá">AP</option>
-                                <option value="Amazonas">AM</option>
-                                <option value="Bahia">BA</option>
-                                <option value="Ceará">CE</option>
-                                <option value="Distrito Federal">DF</option>
-                                <option value="Espírito Santo">ES</option>
-                                <option value="Goiás">GO</option>
-                                <option value="Maranhão">MA</option>
-                                <option value="Mato Grosso">MT</option>
-                                <option value="Mato Grosso do Sul">MS</option>
-                                <option value="Minas Gerais">MG</option>
-                                <option value="Pará">PA</option>
-                                <option value="Paraíba">PB</option>
-                                <option value="Paraná">PR</option>
-                                <option value="Pernambuco">PE</option>
-                                <option value="Piauí">PI</option>
-                                <option value="Rio de Janeiro">RJ</option>
-                                <option value="Rio Grande do Norte">RN</option>
-                                <option value="Rio Grande do Sul">RS</option>
-                                <option value="Rondônia">RO</option>
-                                <option value="Roraima">RR</option>
-                                <option value="Santa Catarina">SC</option>
-                                <option value="São Paulo">SP</option>
-                                <option value="Sergipe">SE</option>
-                                <option value="Tocantins">TO</option>
-                                <option value="Estrangeiro">EX</option>
-                            </select>
-                        </div>
-
-                        <div class="mt-3">
-                            <label for="CAPITAL" class="form-label">O Capital de Investimento é a partir de R$ 500 mil:</label>
-                            <select class="form-control" id="CAPITAL" name="CAPITAL" required>
-                                <option value="" selected disabled hidden>Capital de investimento</option>
-                                <option value="De R$100 mil a R$150 mil">Possuo R$ 500 mil</option>
-                                <option value="De R$150 mil a R$200 mil">Possou Acima de R$ 500 mil</option>
-                                <option value="De R$200 mil a R$300 mil">Não Possuo R$ 500 mil</option>
-                            </select>
-                        </div> -->
-                    </div>
 
                     <div class="bt-section">
                         <button type="submit" class="btn-form" id="btn-form">receber uma apresentação</button>
@@ -902,7 +824,5 @@
         }
     )(jQuery);
 </script>
-<!-- <script src="js/google-sheet.js"></script> -->
-<script src="js/make-webhook.js"></script>
 </body>
 </html>
