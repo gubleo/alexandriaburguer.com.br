@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         <!-- Introdução -->
         <section style='padding: 20px 0; line-height: 1.8; text-align: left;'>
-            <p style='font-size: 16px; color: #333;'>Você recebeu um novo contato pelo formulário do site <strong>alexandriaburguer.com.br</strong>.</p>
+            <p style='font-size: 16px; color: #333;'>Você recebeu um novo contato pelo formulário do site <strong>alexandriaburguerfranquia.com.br</strong>.</p>
             <p style='font-size: 14px; color: #777; margin-top: 10px;'><em>Por favor, entre em contato com o cliente em breve para reforçar nossa excelência no atendimento.</em></p>
         </section>
         
